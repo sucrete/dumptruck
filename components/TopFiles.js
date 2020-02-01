@@ -18,11 +18,12 @@ const TopFiles = () => (
     </Link> */}
 
     {returnArtists().map(artiste => (
-      <div className="fileContainer" key={artiste.id}>
-        <Link href="/[id]" as={`/${artiste.id}`}>
+      <Link href="/[id]" as={`/${artiste.id}`}>
+        <div className="fileContainer" key={artiste.id}>
+          <img className="iconImg" src="/Folder-icon.png" />
           <a>{artiste.artist}</a>
-        </Link>
-      </div>
+        </div>
+      </Link>
     ))}
 
     <style jsx>{`
@@ -33,30 +34,35 @@ const TopFiles = () => (
       .fileContainer {
         padding: 10px 15px;
         border-radius: 5px;
-        border: 1px solid #f8f8f8;
+        border: 1px solid #d8d8d8;
         margin-right: 12px;
         margin-bottom: 12px;
         display: inline-block;
-        box-shadow:  3px 3px 0px rgba(0,0,0,0.1);
+        transition: all 0.3s;
+        box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
         cursor: pointer;
-}
       }
-      ul {
+      .fileContainer:hover {
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.05);
+        border: 1px solid #c8c8c8;
+      }
+      .iconImg {
+        display: inline-block;
+        margin: 0;
         padding: 0;
       }
-
-      li {
-        list-style: none;
-        margin: 5px 0;
+      .fileContainer > * {
+        vertical-align: middle;
       }
-
       a {
         text-decoration: none;
-        color: pink;
+        color: gray;
+        padding-left: 9px;
+        transition: all 0.3s;
       }
 
       .fileContainer:hover a {
-        opacity: 0.6;
+        color: #484848;
       }
     `}</style>
   </div>

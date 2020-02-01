@@ -60,6 +60,7 @@ export default function Index() {
           margin: 0px 5px;
         }
         .topFilesContainer {
+          margin-left: 3px;
           padding-top: 20px;
         }
         .app {
