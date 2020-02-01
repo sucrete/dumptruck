@@ -104,10 +104,6 @@ const TopFiles = () => (
         font-family: "America Expanded Regular", sans-serif;
         font-size: 0.9em;
       }
-
-      .fileContainer:hover a {
-        //
-      }
       @font-face {
         font-family: "America Expanded Regular";
         src: url("/fonts/GT-America-Expanded-Regular.otf") format("opentype");
