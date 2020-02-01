@@ -976,7 +976,7 @@ var _jsxFileName = "/Users/williamandree/Kod3n/dumptruck/pages/kiptok.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function Kiptok() {
-  return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
