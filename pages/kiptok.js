@@ -36,21 +36,25 @@ export default function Kiptok() {
         .fileName {
           text-align: right;
           border-bottom: 1px solid #e8e8e8;
-          height: 25px;
+          height: 32px;
           font-family: "Work Sans";
           border-top: 1px solid transparent;
           transition: all 0.25s;
           cursor: pointer;
           border-left: 8px solid #f8f8f8;
+          vertical-align: middle;
+          position: relative;
         }
         .fileName:hover {
           background: #f8f8f8;
         }
         .fileName span {
-          vertical-align: middle;
-          font-size: 0.8em;
+          font-size: 0.9em;
           color: #484848;
-          position: relative;
+          position: absolute;
+          top: 50%;
+          right: 0%;
+          transform: translatey(-50%);
         }
         .page {
           margin: 10px;
