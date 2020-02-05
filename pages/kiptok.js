@@ -17,9 +17,9 @@ export default function Kiptok() {
         <div className="profile">PROFILE</div>
         <div className="header">kiptok</div>
       </Marquee>
-      <Body>
+      <Body artist="kiptok">
         {works.map(work => (
-          <Link href="/[work]" as={`/${work}`}>
+          <Link href="kiptok/[work]" as={`kiptok/${work}`}>
             <div className="fileName" key={work}>
               <span>kiptok/{work}.dump</span>
             </div>
@@ -35,7 +35,7 @@ export default function Kiptok() {
         }
         .fileName {
           text-align: right;
-          border-bottom: 1px solid #e8e8e8;
+          border-bottom: 1px solid #e0e0e0;
           height: 32px;
           font-family: "Work Sans";
           border-top: 1px solid transparent;

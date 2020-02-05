@@ -20,14 +20,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var ArtistBody = function ArtistBody(props) {
   return __jsx("div", {
-    className: "jsx-2382431526" + " " + "artistBody",
+    className: "jsx-747200788" + " " + "artistBody",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-2382431526" + " " + "directoryHeader",
+    className: "jsx-747200788" + " " + "directoryHeader",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
@@ -35,16 +35,23 @@ var ArtistBody = function ArtistBody(props) {
     __self: this
   }, __jsx("img", {
     src: "/Folder-icon.png",
-    className: "jsx-2382431526" + " " + "iconImg",
+    className: "jsx-747200788" + " " + "iconImg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  })), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2382431526",
+  }), __jsx("span", {
+    className: "jsx-747200788" + " " + "directoryTitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
     __self: this
-  }, ".artistBody.jsx-2382431526{margin-top:25px;margin-left:5px;max-width:500px;margin-right:5px;}.directoryHeader.jsx-2382431526{border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;padding-left:5px;height:35px;position:relative;}.iconImg.jsx-2382431526{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9jb21wb25lbnRzL0FydGlzdEJvZHkuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUWdCLEFBR3lCLEFBTWEsQUFPWCxnQkFaRixFQWFSLFFBQ21CLEdBUkssR0FMaEIsZ0JBQ0MsYUFLQSxJQUpuQixhQUtjLFlBQ00sa0JBQ3BCLFdBS0EiLCJmaWxlIjoiL1VzZXJzL3dpbGxpYW1hbmRyZWUvS29kM24vZHVtcHRydWNrL2NvbXBvbmVudHMvQXJ0aXN0Qm9keS5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IEFydGlzdEJvZHkgPSBwcm9wcyA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwiYXJ0aXN0Qm9keVwiPlxuICAgIDxkaXYgY2xhc3NOYW1lPVwiZGlyZWN0b3J5SGVhZGVyXCI+XG4gICAgICA8aW1nIGNsYXNzTmFtZT1cImljb25JbWdcIiBzcmM9XCIvRm9sZGVyLWljb24ucG5nXCIgLz5cbiAgICA8L2Rpdj5cblxuICAgIHtwcm9wcy5jaGlsZHJlbn1cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC5hcnRpc3RCb2R5IHtcbiAgICAgICAgbWFyZ2luLXRvcDogMjVweDtcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDVweDtcbiAgICAgICAgbWF4LXdpZHRoOiA1MDBweDtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG4gICAgICB9XG4gICAgICAuZGlyZWN0b3J5SGVhZGVyIHtcbiAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICNlMGUwZTA7XG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZTBlMGUwO1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDVweDtcbiAgICAgICAgaGVpZ2h0OiAzNXB4O1xuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB9XG4gICAgICAuaWNvbkltZyB7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgdG9wOiA1MCU7XG4gICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTAlKTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQXJ0aXN0Qm9keTtcbiJdfQ== */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/components/ArtistBody.js */"));
+  }, props.artist)), props.children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "747200788",
+    __self: this
+  }, ".artistBody.jsx-747200788{margin-top:25px;margin-left:5px;max-width:600px;margin-right:5px;}.directoryHeader.jsx-747200788{font-family:\"Work Sans\";border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;padding-left:5px;height:40px;position:relative;}.directoryTitle.jsx-747200788{color:#484848;position:absolute;top:50%;left:35px;-webkit-transform:translatey(-50%);-ms-transform:translatey(-50%);transform:translatey(-50%);}.iconImg.jsx-747200788{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9jb21wb25lbnRzL0FydGlzdEJvZHkuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU2dCLEFBR3lCLEFBTVEsQUFTVixBQU9JLGNBTkEsRUFmRixFQXNCUixNQWhCcUIsRUFpQkYsTUF0QlgsQUFlUixRQUNFLFFBZk8sRUFnQlUsR0FYSyxZQUpsQyxvQkFLbUIsaUJBQ0wsWUFDTSxLQWNwQixhQVpELEFBQUMsV0FPQSIsImZpbGUiOiIvVXNlcnMvd2lsbGlhbWFuZHJlZS9Lb2Qzbi9kdW1wdHJ1Y2svY29tcG9uZW50cy9BcnRpc3RCb2R5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgQXJ0aXN0Qm9keSA9IHByb3BzID0+IChcbiAgPGRpdiBjbGFzc05hbWU9XCJhcnRpc3RCb2R5XCI+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJkaXJlY3RvcnlIZWFkZXJcIj5cbiAgICAgIDxpbWcgY2xhc3NOYW1lPVwiaWNvbkltZ1wiIHNyYz1cIi9Gb2xkZXItaWNvbi5wbmdcIiAvPlxuICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZGlyZWN0b3J5VGl0bGVcIj57cHJvcHMuYXJ0aXN0fTwvc3Bhbj5cbiAgICA8L2Rpdj5cblxuICAgIHtwcm9wcy5jaGlsZHJlbn1cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC5hcnRpc3RCb2R5IHtcbiAgICAgICAgbWFyZ2luLXRvcDogMjVweDtcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDVweDtcbiAgICAgICAgbWF4LXdpZHRoOiA2MDBweDtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG4gICAgICB9XG4gICAgICAuZGlyZWN0b3J5SGVhZGVyIHtcbiAgICAgICAgZm9udC1mYW1pbHk6IFwiV29yayBTYW5zXCI7XG4gICAgICAgIGJvcmRlci10b3A6IDFweCBzb2xpZCAjZTBlMGUwO1xuICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2UwZTBlMDtcbiAgICAgICAgcGFkZGluZy1sZWZ0OiA1cHg7XG4gICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOlxuICAgICAgfVxuICAgICAgLmRpcmVjdG9yeVRpdGxlIHtcbiAgICAgICAgY29sb3I6ICM0ODQ4NDg7XG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgdG9wOiA1MCU7XG4gICAgICAgIGxlZnQ6IDM1cHg7XG4gICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRleSgtNTAlKTtcbiAgICAgIH1cbiAgICAgIC5pY29uSW1nIHtcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICB0b3A6IDUwJTtcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBBcnRpc3RCb2R5O1xuIl19 */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/components/ArtistBody.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ArtistBody);
@@ -10622,7 +10629,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 var works = ["Om4hKmsSCi", "YqZmNPyL6L", "nsDdrHFcHU", "FDDGLaTJpX", "sjmnBqeus7", "WBE5xVtWzK"];
 function Kiptok() {
   return __jsx("div", {
-    className: "jsx-528614054" + " " + "page",
+    className: "jsx-4257186312" + " " + "page",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -10635,20 +10642,21 @@ function Kiptok() {
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-528614054" + " " + "profile",
+    className: "jsx-4257186312" + " " + "profile",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
   }, "PROFILE"), __jsx("div", {
-    className: "jsx-528614054" + " " + "header",
+    className: "jsx-4257186312" + " " + "header",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
   }, "kiptok")), __jsx(_components_ArtistBody__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    artist: "kiptok",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -10656,8 +10664,8 @@ function Kiptok() {
     __self: this
   }, works.map(function (work) {
     return __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/[work]",
-      as: "/".concat(work),
+      href: "kiptok/[work]",
+      as: "kiptok/".concat(work),
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22
@@ -10665,14 +10673,14 @@ function Kiptok() {
       __self: this
     }, __jsx("div", {
       key: work,
-      className: "jsx-528614054" + " " + "fileName",
+      className: "jsx-4257186312" + " " + "fileName",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
     }, __jsx("span", {
-      className: "jsx-528614054",
+      className: "jsx-4257186312",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
@@ -10680,9 +10688,9 @@ function Kiptok() {
       __self: this
     }, "kiptok/", work, ".dump")));
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "528614054",
+    id: "4257186312",
     __self: this
-  }, "@import url(\"https://fonts.googleapis.com/css?family=Work+Sans&display=swap\");.profile.jsx-528614054{font-family:\"Work Sans\";font-size:77%;}.fileName.jsx-528614054{text-align:right;border-bottom:1px solid #e8e8e8;height:32px;font-family:\"Work Sans\";border-top:1px solid transparent;-webkit-transition:all 0.25s;transition:all 0.25s;cursor:pointer;border-left:8px solid #f8f8f8;vertical-align:middle;position:relative;}.fileName.jsx-528614054:hover{background:#f8f8f8;}.fileName.jsx-528614054 span.jsx-528614054{font-size:0.9em;color:#484848;position:absolute;top:50%;right:0%;-webkit-transform:translatey(-50%);-ms-transform:translatey(-50%);transform:translatey(-50%);}.page.jsx-528614054{margin:10px;margin-top:20px;padding-bottom:100px;}.header.jsx-528614054{font-size:3em;position:relative;margin-top:6px;left:-3px;padding-bottom:30px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9raXB0b2suanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkJrQixBQUVzRixBQUVuRCxBQUlQLEFBWUUsQUFHSCxBQVFKLEFBS0UsWUFKRSxFQUtFLEVBYkosQ0Fma0IsRUFZbEMsS0FoQmdCLElBNEJPLEVBUkgsRUFhSCxNQWhDakIsU0FpQ1ksQ0FiRixDQWhCSSxBQXdCZCxPQVBXLENBYVcsSUE3QkksSUFpQkcsWUFhN0IsUUE3Qm1DLGlDQUNaLHdDQWdCdkIsVUFmaUIsZUFDZSw4QkFDUixzQkFDSixrQkFDcEIiLCJmaWxlIjoiL1VzZXJzL3dpbGxpYW1hbmRyZWUvS29kM24vZHVtcHRydWNrL3BhZ2VzL2tpcHRvay5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBNYXJxdWVlIGZyb20gXCIuLi9jb21wb25lbnRzL01hcnF1ZWVcIjtcbmltcG9ydCBCb2R5IGZyb20gXCIuLi9jb21wb25lbnRzL0FydGlzdEJvZHlcIjtcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcblxuY29uc3Qgd29ya3MgPSBbXG4gIFwiT200aEttc1NDaVwiLFxuICBcIllxWm1OUHlMNkxcIixcbiAgXCJuc0RkckhGY0hVXCIsXG4gIFwiRkRER0xhVEpwWFwiLFxuICBcInNqbW5CcWV1czdcIixcbiAgXCJXQkU1eFZ0V3pLXCJcbl07XG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBLaXB0b2soKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJwYWdlXCI+XG4gICAgICA8TWFycXVlZT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9maWxlXCI+UFJPRklMRTwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlYWRlclwiPmtpcHRvazwvZGl2PlxuICAgICAgPC9NYXJxdWVlPlxuICAgICAgPEJvZHk+XG4gICAgICAgIHt3b3Jrcy5tYXAod29yayA9PiAoXG4gICAgICAgICAgPExpbmsgaHJlZj1cIi9bd29ya11cIiBhcz17YC8ke3dvcmt9YH0+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZpbGVOYW1lXCIga2V5PXt3b3JrfT5cbiAgICAgICAgICAgICAgPHNwYW4+a2lwdG9rL3t3b3JrfS5kdW1wPC9zcGFuPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9MaW5rPlxuICAgICAgICApKX1cbiAgICAgIDwvQm9keT5cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBAaW1wb3J0IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Xb3JrK1NhbnMmZGlzcGxheT1zd2FwXCIpO1xuICAgICAgICAucHJvZmlsZSB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IFwiV29yayBTYW5zXCI7XG4gICAgICAgICAgZm9udC1zaXplOiA3NyU7XG4gICAgICAgIH1cbiAgICAgICAgLmZpbGVOYW1lIHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2U4ZThlODtcbiAgICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IFwiV29yayBTYW5zXCI7XG4gICAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjI1cztcbiAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgICAgYm9yZGVyLWxlZnQ6IDhweCBzb2xpZCAjZjhmOGY4O1xuICAgICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICB9XG4gICAgICAgIC5maWxlTmFtZTpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogI2Y4ZjhmODtcbiAgICAgICAgfVxuICAgICAgICAuZmlsZU5hbWUgc3BhbiB7XG4gICAgICAgICAgZm9udC1zaXplOiAwLjllbTtcbiAgICAgICAgICBjb2xvcjogIzQ4NDg0ODtcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgdG9wOiA1MCU7XG4gICAgICAgICAgcmlnaHQ6IDAlO1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRleSgtNTAlKTtcbiAgICAgICAgfVxuICAgICAgICAucGFnZSB7XG4gICAgICAgICAgbWFyZ2luOiAxMHB4O1xuICAgICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgICAgICAgcGFkZGluZy1ib3R0b206IDEwMHB4O1xuICAgICAgICB9XG4gICAgICAgIC5oZWFkZXIge1xuICAgICAgICAgIGZvbnQtc2l6ZTogM2VtO1xuICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICBtYXJnaW4tdG9wOiA2cHg7XG4gICAgICAgICAgbGVmdDogLTNweDtcbiAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMzBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/kiptok.js */"));
+  }, "@import url(\"https://fonts.googleapis.com/css?family=Work+Sans&display=swap\");.profile.jsx-4257186312{font-family:\"Work Sans\";font-size:77%;}.fileName.jsx-4257186312{text-align:right;border-bottom:1px solid #e0e0e0;height:32px;font-family:\"Work Sans\";border-top:1px solid transparent;-webkit-transition:all 0.25s;transition:all 0.25s;cursor:pointer;border-left:8px solid #f8f8f8;vertical-align:middle;position:relative;}.fileName.jsx-4257186312:hover{background:#f8f8f8;}.fileName.jsx-4257186312 span.jsx-4257186312{font-size:0.9em;color:#484848;position:absolute;top:50%;right:0%;-webkit-transform:translatey(-50%);-ms-transform:translatey(-50%);transform:translatey(-50%);}.page.jsx-4257186312{margin:10px;margin-top:20px;padding-bottom:100px;}.header.jsx-4257186312{font-size:3em;position:relative;margin-top:6px;left:-3px;padding-bottom:30px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9raXB0b2suanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkJrQixBQUVzRixBQUVuRCxBQUlQLEFBWUUsQUFHSCxBQVFKLEFBS0UsWUFKRSxFQUtFLEVBYkosQ0Fma0IsRUFZbEMsS0FoQmdCLElBNEJPLEVBUkgsRUFhSCxNQWhDakIsU0FpQ1ksQ0FiRixDQWhCSSxBQXdCZCxPQVBXLENBYVcsSUE3QkksSUFpQkcsWUFhN0IsUUE3Qm1DLGlDQUNaLHdDQWdCdkIsVUFmaUIsZUFDZSw4QkFDUixzQkFDSixrQkFDcEIiLCJmaWxlIjoiL1VzZXJzL3dpbGxpYW1hbmRyZWUvS29kM24vZHVtcHRydWNrL3BhZ2VzL2tpcHRvay5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBNYXJxdWVlIGZyb20gXCIuLi9jb21wb25lbnRzL01hcnF1ZWVcIjtcbmltcG9ydCBCb2R5IGZyb20gXCIuLi9jb21wb25lbnRzL0FydGlzdEJvZHlcIjtcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcblxuY29uc3Qgd29ya3MgPSBbXG4gIFwiT200aEttc1NDaVwiLFxuICBcIllxWm1OUHlMNkxcIixcbiAgXCJuc0RkckhGY0hVXCIsXG4gIFwiRkRER0xhVEpwWFwiLFxuICBcInNqbW5CcWV1czdcIixcbiAgXCJXQkU1eFZ0V3pLXCJcbl07XG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBLaXB0b2soKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJwYWdlXCI+XG4gICAgICA8TWFycXVlZT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9maWxlXCI+UFJPRklMRTwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlYWRlclwiPmtpcHRvazwvZGl2PlxuICAgICAgPC9NYXJxdWVlPlxuICAgICAgPEJvZHkgYXJ0aXN0PVwia2lwdG9rXCI+XG4gICAgICAgIHt3b3Jrcy5tYXAod29yayA9PiAoXG4gICAgICAgICAgPExpbmsgaHJlZj1cImtpcHRvay9bd29ya11cIiBhcz17YGtpcHRvay8ke3dvcmt9YH0+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZpbGVOYW1lXCIga2V5PXt3b3JrfT5cbiAgICAgICAgICAgICAgPHNwYW4+a2lwdG9rL3t3b3JrfS5kdW1wPC9zcGFuPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9MaW5rPlxuICAgICAgICApKX1cbiAgICAgIDwvQm9keT5cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBAaW1wb3J0IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Xb3JrK1NhbnMmZGlzcGxheT1zd2FwXCIpO1xuICAgICAgICAucHJvZmlsZSB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IFwiV29yayBTYW5zXCI7XG4gICAgICAgICAgZm9udC1zaXplOiA3NyU7XG4gICAgICAgIH1cbiAgICAgICAgLmZpbGVOYW1lIHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2UwZTBlMDtcbiAgICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IFwiV29yayBTYW5zXCI7XG4gICAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjI1cztcbiAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgICAgYm9yZGVyLWxlZnQ6IDhweCBzb2xpZCAjZjhmOGY4O1xuICAgICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICB9XG4gICAgICAgIC5maWxlTmFtZTpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogI2Y4ZjhmODtcbiAgICAgICAgfVxuICAgICAgICAuZmlsZU5hbWUgc3BhbiB7XG4gICAgICAgICAgZm9udC1zaXplOiAwLjllbTtcbiAgICAgICAgICBjb2xvcjogIzQ4NDg0ODtcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgdG9wOiA1MCU7XG4gICAgICAgICAgcmlnaHQ6IDAlO1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRleSgtNTAlKTtcbiAgICAgICAgfVxuICAgICAgICAucGFnZSB7XG4gICAgICAgICAgbWFyZ2luOiAxMHB4O1xuICAgICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgICAgICAgcGFkZGluZy1ib3R0b206IDEwMHB4O1xuICAgICAgICB9XG4gICAgICAgIC5oZWFkZXIge1xuICAgICAgICAgIGZvbnQtc2l6ZTogM2VtO1xuICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICBtYXJnaW4tdG9wOiA2cHg7XG4gICAgICAgICAgbGVmdDogLTNweDtcbiAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMzBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/kiptok.js */"));
 }
 
 /***/ }),
