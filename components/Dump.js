@@ -1,9 +1,9 @@
 const Dump = props => (
   <div className="workContainer">
-    <section>
+    <span>
       {props.id}
       <img src="/heart.svg" />
-    </section>
+    </span>
     {props.children}
     <style jsx>{`
       .workComponent {
