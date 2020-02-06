@@ -9,11 +9,7 @@ const works = [
   "CQnST3Y6WE",
   "qhbOKcrl8a",
   "hOz1JDmWOX",
-  "a0LsfsukYn",
-  "SiazZLyN2a",
-  "DvzuC7ivIG",
-  "wxGxQZms9a",
-  "fgsrt4jbS9"
+  "a0LsfsukYn"
 ];
 const artist = "joy";
 export default function Joy() {

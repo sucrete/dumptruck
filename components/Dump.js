@@ -24,7 +24,7 @@ const Dump = props => (
         cursor: pointer;
       }
       span.artistName img.dumpHeart:hover {
-        width: 25%;
+        width: 13px;
       }
     `}</style>
   </div>
