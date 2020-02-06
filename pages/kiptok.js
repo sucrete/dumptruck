@@ -2,14 +2,7 @@ import Marquee from "../components/Marquee";
 import Body from "../components/ArtistBody";
 import Link from "next/link";
 
-const works = [
-  "Om4hKmsSCi",
-  "YqZmNPyL6L",
-  "nsDdrHFcHU",
-  "FDDGLaTJpX",
-  "sjmnBqeus7",
-  "WBE5xVtWzK"
-];
+const works = ["Om4hKmsSCi", "YqZmNPyL6L", "nsDdrHFcHU", "FDDGLaTJpX"];
 export default function Kiptok() {
   return (
     <div className="page">
