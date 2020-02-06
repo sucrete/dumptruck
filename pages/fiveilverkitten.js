@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const works = ["SiazZLyN2a", "DvzuC7ivIG"];
 const artist = "5ilverkitten";
-export default function fiveilverkitten() {
+export default function Fiveilverkitten() {
   return (
     <div className="page">
       <Marquee>

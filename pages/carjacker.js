@@ -12,7 +12,7 @@ const works = [
   "qhH5SQzQNC"
 ];
 const artist = "carjacker";
-export default function fiveilverkitten() {
+export default function Carjacker() {
   return (
     <div className="page">
       <Marquee>

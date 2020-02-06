@@ -68,6 +68,8 @@ const TopFiles = () => (
     ))}
 
     <style jsx>{`
+      @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+
       h1,
       a {
         font-family: serif;
@@ -100,7 +102,7 @@ const TopFiles = () => (
         color: #484848;
         padding-left: 9px;
         transition: all 0.3s;
-        font-family: "America Expanded Regular", sans-serif;
+        font-family: "Work Sans", sans-serif;
         font-size: 0.9em;
       }
       @font-face {
