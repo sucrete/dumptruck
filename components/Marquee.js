@@ -11,7 +11,7 @@ const Marquee = props => (
     <div className="description">{props.children}</div>
     <style jsx>{`
       .description {
-        font-family: "America Expanded Regular";
+        font-family: "America Expanded Fat", sans-serif;
         margin-left: 5px;
         margin-top: 20px;
       }
@@ -36,6 +36,11 @@ const Marquee = props => (
       @font-face {
         font-family: "America Expanded Regular";
         src: url("/fonts/GT-America-Expanded-Regular.otf") format("opentype");
+        font-display: auto;
+      }
+      @font-face {
+        font-family: "America Expanded Fat";
+        src: url("/fonts/GT-America-Expanded-Bold.otf") format("opentype");
         font-display: auto;
       }
     `}</style>

@@ -5,10 +5,7 @@ export default function Index() {
   return (
     <div className="app">
       <Marquee>
-        <div className="title">
-          sucrete's <br />
-          collection
-        </div>
+        <div className="title">the sucrete collection</div>
       </Marquee>
 
       <div className="topFilesContainer">
@@ -22,7 +19,7 @@ export default function Index() {
           margin-right: 15px;
           padding-bottom: 50px;
           width: 85%;
-          font-family: "America Expanded Regular";
+          font-family: "America Expanded Fat";
           font-size: 3em;
         }
         .topFilesContainer {
@@ -37,6 +34,11 @@ export default function Index() {
         @font-face {
           font-family: "America Expanded Regular";
           src: url("/fonts/GT-America-Expanded-Regular.otf") format("opentype");
+          font-display: auto;
+        }
+        @font-face {
+          font-family: "America Expanded Fat";
+          src: url("/fonts/GT-America-Expanded-Bold.otf") format("opentype");
           font-display: auto;
         }
       `}</style>
