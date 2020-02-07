@@ -4,10 +4,6 @@
     "static/development/dll/dll_4b8bef20edde04f98d3f.js.map"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js",
@@ -21,27 +17,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/ice": [
+    "/polymer": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/ice/AqONlxtFid": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/ice/dDQRYP0sOI": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/ice/nbEp491maL": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/ice/oyraKSWFao": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/index": [
+    "/polymer/zHYLjCoV3d": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
