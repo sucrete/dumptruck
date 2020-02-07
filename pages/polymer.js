@@ -7,8 +7,7 @@ const works = [
   "QSYDFDXuLj",
   "ZXNlY9QcEZ",
   "Tu1yarVqwK",
-  "zHYLjCoV3d",
-  "yGqCCor2Iu"
+  "zHYLjCoV3d"
 ];
 const artist = "polymer";
 export default function Polymer() {
