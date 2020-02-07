@@ -4,7 +4,7 @@
     "static/development/dll/dll_4b8bef20edde04f98d3f.js.map"
   ],
   "pages": {
-    "/FAUXreal/wPDZsg6BkW": [
+    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -21,7 +21,23 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/joy/kwV3DpiAWf": [
+    "/glasspopcorn/kgMDkv7cQz": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/grass": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/grass/VTf5HLHK8S": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

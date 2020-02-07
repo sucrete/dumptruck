@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/FAUXreal/wPDZsg6BkW.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/grass/VTf5HLHK8S.js"],{
 
 /***/ "./components/Dump.js":
 /*!****************************!*\
@@ -51,21 +51,21 @@ var Dump = function Dump(props) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FFAUXreal%2FwPDZsg6BkW&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2FFAUXreal%2FwPDZsg6BkW.js!./":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FFAUXreal%2FwPDZsg6BkW&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2FFAUXreal%2FwPDZsg6BkW.js ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgrass%2FVTf5HLHK8S&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fgrass%2FVTf5HLHK8S.js!./":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgrass%2FVTf5HLHK8S&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fgrass%2FVTf5HLHK8S.js ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/FAUXreal/wPDZsg6BkW", function() {
-      var mod = __webpack_require__(/*! ./pages/FAUXreal/wPDZsg6BkW.js */ "./pages/FAUXreal/wPDZsg6BkW.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/grass/VTf5HLHK8S", function() {
+      var mod = __webpack_require__(/*! ./pages/grass/VTf5HLHK8S.js */ "./pages/grass/VTf5HLHK8S.js")
       if(true) {
-        module.hot.accept(/*! ./pages/FAUXreal/wPDZsg6BkW.js */ "./pages/FAUXreal/wPDZsg6BkW.js", function() {
-          if(!next.router.components["/FAUXreal/wPDZsg6BkW"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/FAUXreal/wPDZsg6BkW.js */ "./pages/FAUXreal/wPDZsg6BkW.js")
-          next.router.update("/FAUXreal/wPDZsg6BkW", updatedPage)
+        module.hot.accept(/*! ./pages/grass/VTf5HLHK8S.js */ "./pages/grass/VTf5HLHK8S.js", function() {
+          if(!next.router.components["/grass/VTf5HLHK8S"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/grass/VTf5HLHK8S.js */ "./pages/grass/VTf5HLHK8S.js")
+          next.router.update("/grass/VTf5HLHK8S", updatedPage)
         })
       }
       return mod
@@ -973,37 +973,37 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 /***/ }),
 
-/***/ "./pages/FAUXreal/wPDZsg6BkW.js":
-/*!**************************************!*\
-  !*** ./pages/FAUXreal/wPDZsg6BkW.js ***!
-  \**************************************/
+/***/ "./pages/grass/VTf5HLHK8S.js":
+/*!***********************************!*\
+  !*** ./pages/grass/VTf5HLHK8S.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return wPDZsg6BkW; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return VTf5HLHK8S; });
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Dump__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Dump */ "./components/Dump.js");
-var _jsxFileName = "/Users/williamandree/Kod3n/dumptruck/pages/FAUXreal/wPDZsg6BkW.js";
+var _jsxFileName = "/Users/williamandree/Kod3n/dumptruck/pages/grass/VTf5HLHK8S.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-var sourceURLS = ["https://lh3.googleusercontent.com/AajjpZ-rOokMlJJR3WCccnYwYI4bujbta69PW5HI7YSHEjv7iC6z2Sh8n6x1eyO-1R0bwnvNWGiYGyiDFdpHipK2xg85kr16nPhx1hbYxHdq7vlnGLKFw_z_yrkAJOxApEhvPiibXPD4mIu8v1sb8Y8m3LNkQ92A6CyTplQYmr-6dxUrXvVn9W3bdl9jdEAOt3-QZwJwZLxxbZbtGq9R-JYYqQmjwny62RXwJnCqBzOWXxqKApgA2HzNKmJeE7w7AvUy1rs9j9KuH55_kOLtyJsyRY0D5t4OShql6Tv9jJYmKY0Ymu4hTqmUIOwgyq_r5QILWiMDoOFc31qicLrzobAz33P7CAiiNiIF5R9te9-5NatX1rNBtpZpMBePVaI7pqcWv3AX0gCKxJKo8JnlhupwbOWakd8MQG3ivcA06V9Fodyl74O8YssiuLdq4iFkcD859XiZUw6iYXL3rymkaGN4cV_X9Yin8PgaFisADbUiKoi1auvIltIogUZEeUPoH7YtpCX2MCMjS6UlziDqJRWQQ9iTX2U0AKXS9FZERTozfNMQ6-0WoC1RYmtZIj7qDWVleHKVsE7jfeKweIfOqE9gbJxXf2hf_pGnbPxv3LsGfS9TF1PlhLIC_QIemnRJZNV3ICcFQBmJCFE835acskXdoHNw_KydDya97cRSuv1j9CvZZ7c=w1440-h550-ft"];
-function wPDZsg6BkW() {
+var sourceURLS = ["https://lh3.googleusercontent.com/gzVdVntu5c3sGLiZ4-xp2WAknbmLWfoIX7XjHzqyukJB-Rri8jnRLCowjvbACk-Vjsw383vb0x5sXRC6GZHdHyiVY7tmpeFEylrwHHlt51GT7O-a8hJxdVBme7v2_w0o4vyauWqkdhMCNOtCZH7E7FJRXGSTr_jl2kapeseXVtPUMrEZawmNxD_MmtUuby-r2Ul4fplHg8AYU402atL5YGZ17IEnY0NyaSSk_Gady7w2g5hmeYSwbKJrHiJJB6OU_7MMeUKNS6U3_FD4NfJ4nAZzavGBIIoyluN6PtiBYeX1Vf3_Fh_outg-E_C-CdnggxrMpgkjPNtguH_Ko6AFyMVACwhCq31-_VwOZcfnac-AyoKoUVFJJLgbE28ZHD9n-zQ9ze3j1E6xkL_26lW6YqkNRazQjJVsGvCh9YHU160zQHZtMz_uiMOvT7PpCHtSg5sYMyjeLqwsSdvgf4fVYmvfCXQID_CfxjnikEkHbtUnVkSzFVuDrwrHx0jd5gHO1kMavOWzetTNEBmf1viisPuvx9Of-F1eTX0QkjAltlzVTBdrNDY_-KXxBWZgxDbivATBFG62N_H3Oxbc-8nPoCll6NxThjqrDqtBKEsa1n3h9q6HB1YV1E-kgBCtFiJcYOkU2puhrJv02E8s-TXyTHOux8tdsutnwhMMZJ3ZXBVJMAipQt0=w1440-h550-ft"];
+function VTf5HLHK8S() {
   return __jsx("div", {
-    className: "jsx-305126160",
+    className: "jsx-1312979782",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, __jsx(_components_Dump__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    id: "FAUXreal",
+    id: "grass",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -1012,7 +1012,7 @@ function wPDZsg6BkW() {
   }, sourceURLS.map(function (url) {
     return __jsx("img", {
       src: url,
-      className: "jsx-305126160" + " " + "workComponent",
+      className: "jsx-1312979782" + " " + "workComponent",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
@@ -1020,21 +1020,21 @@ function wPDZsg6BkW() {
       __self: this
     });
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "305126160",
+    id: "1312979782",
     __self: this
-  }, ".workComponent.jsx-305126160{max-height:325px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9GQVVYcmVhbC93UERac2c2QmtXLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlrQixBQUc0QixpQkFDbkIiLCJmaWxlIjoiL1VzZXJzL3dpbGxpYW1hbmRyZWUvS29kM24vZHVtcHRydWNrL3BhZ2VzL0ZBVVhyZWFsL3dQRFpzZzZCa1cuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgRHVtcCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9EdW1wXCI7XG5jb25zdCBzb3VyY2VVUkxTID0gW1xuICBcImh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9BYWpqcFotck9va01sSkpSM1dDY2NuWXdZSTRidWpidGE2OVBXNUhJN1lTSEVqdjdpQzZ6MlNoOG42eDFleU8tMVIwYndudk5XR2lZR3lpREZkcEhpcEsyeGc4NWtyMTZuUGh4MWhiWXhIZHE3dmxuR0xLRndfel95cmtBSk94QXBFaHZQaWliWFBENG1JdTh2MXNiOFk4bTNMTmtROTJBNkN5VHBsUVltci02ZHhVclh2Vm45VzNiZGw5amRFQU90My1RWndKd1pMeHhiWmJ0R3E5Ui1KWVlxUW1qd255NjJSWHdKbkNxQnpPV1h4cUtBcGdBMkh6TkttSmVFN3c3QXZVeTFyczlqOUt1SDU1X2tPTHR5SnN5UlkwRDV0NE9TaHFsNlR2OWpKWW1LWTBZbXU0aFRxbVVJT3dneXFfcjVRSUxXaU1Eb09GYzMxcWljTHJ6b2JBejMzUDdDQWlpTmlJRjVSOXRlOS01TmF0WDFyTkJ0cFpwTUJlUFZhSTdwcWNXdjNBWDBnQ0t4SktvOEpubGh1cHdiT1dha2Q4TVFHM2l2Y0EwNlY5Rm9keWw3NE84WXNzaXVMZHE0aUZrY0Q4NTlYaVpVdzZpWVhMM3J5bWthR040Y1ZfWDlZaW44UGdhRmlzQURiVWlLb2kxYXV2SWx0SW9nVVpFZVVQb0g3WXRwQ1gyTUNNalM2VWx6aURxSlJXUVE5aVRYMlUwQUtYUzlGWkVSVG96Zk5NUTYtMFdvQzFSWW10WklqN3FEV1ZsZUhLVnNFN2pmZUt3ZUlmT3FFOWdiSnhYZjJoZl9wR25iUHh2M0xzR2ZTOVRGMVBsaExJQ19RSWVtblJKWk5WM0lDY0ZRQm1KQ0ZFODM1YWNza1hkb0hOd19LeWREeWE5N2NSU3V2MWo5Q3ZaWjdjPXcxNDQwLWg1NTAtZnRcIlxuXTtcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHdQRFpzZzZCa1coKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxEdW1wIGlkPVwiRkFVWHJlYWxcIj5cbiAgICAgICAge3NvdXJjZVVSTFMubWFwKHVybCA9PiAoXG4gICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJ3b3JrQ29tcG9uZW50XCIgc3JjPXt1cmx9IC8+XG4gICAgICAgICkpfVxuICAgICAgPC9EdW1wPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAud29ya0NvbXBvbmVudCB7XG4gICAgICAgICAgbWF4LWhlaWdodDogMzI1cHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/FAUXreal/wPDZsg6BkW.js */"));
+  }, ".workComponent.jsx-1312979782{max-height:400px;max-width:500px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9ncmFzcy9WVGY1SExISzhTLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlrQixBQUc0QixpQkFDRCxnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL3dpbGxpYW1hbmRyZWUvS29kM24vZHVtcHRydWNrL3BhZ2VzL2dyYXNzL1ZUZjVITEhLOFMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgRHVtcCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9EdW1wXCI7XG5jb25zdCBzb3VyY2VVUkxTID0gW1xuICBcImh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9nelZkVm50dTVjM3NHTGlaNC14cDJXQWtuYm1MV2ZvSVg3WGpIenF5dWtKQi1Scmk4am5STENvd2p2YkFDay1WanN3MzgzdmIweDVzWFJDNkdaSGRIeWlWWTd0bXBlRkV5bHJ3SEhsdDUxR1Q3Ty1hOGhKeGRWQm1lN3YyX3cwbzR2eWF1V3FrZGhNQ05PdENaSDdFN0ZKUlhHU1RyX2psMmthcGVzZVhWdFBVTXJFWmF3bU54RF9NbXRVdWJ5LXIyVWw0ZnBsSGc4QVlVNDAyYXRMNVlHWjE3SUVuWTBOeWFTU2tfR2FkeTd3Mmc1aG1lWVN3YktKckhpSkpCNk9VXzdNTWVVS05TNlUzX0ZENE5mSjRuQVp6YXZHQklJb3lsdU42UHRpQlllWDFWZjNfRmhfb3V0Zy1FX0MtQ2RuZ2d4ck1wZ2tqUE50Z3VIX0tvNkFGeU1WQUN3aENxMzEtX1Z3T1pjZm5hYy1BeW9Lb1VWRkpKTGdiRTI4WkhEOW4telE5emUzajFFNnhrTF8yNmxXNllxa05SYXpRakpWc0d2Q2g5WUhVMTYwelFIWnRNel91aU1PdlQ3UHBDSHRTZzVzWU15amVMcXdzU2R2Z2Y0ZlZZbXZmQ1hRSURfQ2Z4am5pa0VrSGJ0VW5Wa1N6RlZ1RHJ3ckh4MGpkNWdITzFrTWF2T1d6ZXRUTkVCbWYxdmlpc1B1dng5T2YtRjFlVFgwUWtqQWx0bHpWVEJkck5EWV8tS1h4QldaZ3hEYml2QVRCRkc2Mk5fSDNPeGJjLThuUG9DbGw2TnhUaGpxckRxdEJLRXNhMW4zaDlxNkhCMVlWMUUta2dCQ3RGaUpjWU9rVTJwdWhySnYwMkU4cy1UWHlUSE91eDh0ZHN1dG53aE1NWkozWlhCVkpNQWlwUXQwPXcxNDQwLWg1NTAtZnRcIlxuXTtcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFZUZjVITEhLOFMoKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxEdW1wIGlkPVwiZ3Jhc3NcIj5cbiAgICAgICAge3NvdXJjZVVSTFMubWFwKHVybCA9PiAoXG4gICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJ3b3JrQ29tcG9uZW50XCIgc3JjPXt1cmx9IC8+XG4gICAgICAgICkpfVxuICAgICAgPC9EdW1wPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAud29ya0NvbXBvbmVudCB7XG4gICAgICAgICAgbWF4LWhlaWdodDogNDAwcHg7XG4gICAgICAgICAgbWF4LXdpZHRoOiA1MDBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/grass/VTf5HLHK8S.js */"));
 }
 
 /***/ }),
 
-/***/ 1:
-/*!*********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FFAUXreal%2FwPDZsg6BkW&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2FFAUXreal%2FwPDZsg6BkW.js ***!
-  \*********************************************************************************************************************************************************************/
+/***/ 3:
+/*!***************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fgrass%2FVTf5HLHK8S&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fgrass%2FVTf5HLHK8S.js ***!
+  \***************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FFAUXreal%2FwPDZsg6BkW&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2FFAUXreal%2FwPDZsg6BkW.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FFAUXreal%2FwPDZsg6BkW&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2FFAUXreal%2FwPDZsg6BkW.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fgrass%2FVTf5HLHK8S&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fgrass%2FVTf5HLHK8S.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgrass%2FVTf5HLHK8S&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fgrass%2FVTf5HLHK8S.js!./");
 
 
 /***/ }),
@@ -1050,5 +1050,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=wPDZsg6BkW.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=VTf5HLHK8S.js.map

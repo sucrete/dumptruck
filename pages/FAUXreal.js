@@ -25,7 +25,9 @@ const works = [
   "P1OfPD2ukH",
   "quE0VAH42G",
   "zwI0yfaV6v",
-  "mQVP0Pl7Jm"
+  "mQVP0Pl7Jm",
+  "mbuyERWMj2",
+  "MHoean6X7c"
 ];
 const artist = "FAUXreal";
 export default function FAUXreal() {
