@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -142,40 +142,40 @@ const Dump = props => __jsx("div", {
 
 /***/ }),
 
-/***/ "./pages/robocide/duzS2FeQco.js":
-/*!**************************************!*\
-  !*** ./pages/robocide/duzS2FeQco.js ***!
-  \**************************************/
+/***/ "./pages/qil/LHOxyyTUAG.js":
+/*!*********************************!*\
+  !*** ./pages/qil/LHOxyyTUAG.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return duzS2FeQco; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return LHOxyyTUAG; });
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Dump__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Dump */ "./components/Dump.js");
-var _jsxFileName = "/Users/williamandree/Kod3n/dumptruck/pages/robocide/duzS2FeQco.js";
+var _jsxFileName = "/Users/williamandree/Kod3n/dumptruck/pages/qil/LHOxyyTUAG.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-const sourceURLS = ["https://lh3.googleusercontent.com/Rbwi6sSHKHJxObzeowSRgjnadomErLyzu6UQ4guuyneS8JItRR2FemeihRKlQEAe7eNfZ9SfE0PxH7ZSmhuwkF1od4Z9XS0R5_eij-8KTiGuKRNs2XN7wl5n2UTm1svRsM1uYDvDM1rIgF9zDu5w5O9sddYJ8AAa4Et_5kaCP1yBy0Gu1iMqtX-E5ppaF7_aUZEfG-UwL7loV5ZAMhgNjZKsPyUGQ_BYbLhDdpQRU-d7QK70sONVpzq0iY_BbVA59mqzrhTFlgz1AaB6mOcS74i2lAcG6R0Z2fq1PAcLl5UemQckIqIp6Rj1jfGwk6sXlCwwqkjCpgEvjE0xio2xinQTj8bUBdHgZUbucsiFSl3um3ouvmydOIcL2NOY17ZX7osdvsGGGv0rUT7gFfM3Jr7NMuOTYtqks6Aq3WYOrMOQHeRGz5Ro5Lb1anUTLM9iBKbN_CL52_rHl1LVcwAaMOd1kJYuMMdKaQBAq0wS7QL3qm4OJpk--68qFQheqIEomkIFEaan5i1BvopVvmxddw8fiR7H5zZOdMkGIDLcziRbYI0O-4153-mGcjJJBWnJt7OGsFznnbmvSZISmVdaLxg7xnc79O0pwLfQ2WmCNPIEke7QG0UBk4QhGucDsM2bSeKQ8UJh2PfFn-4IvwUg26ESnZ9zfCnQS8FK0htL3C4NNmjl2wo=w1440-h550-ft", "https://lh3.googleusercontent.com/USaWla5EeefnavgsRsx0QrVyNMdhkb5nSMAKUIObLkxr0DpIZwKFMfABz0GeN4EYnjG2oDDdaJVa20ZgKhEDlxvDZ3qJRH1YJ2T1RIJzppwj6jv-g_TztI8eECNLefJjXyIwOk9atTXGiD3wSA79XHuzALsMB_EEpY8T7kt_yMIV8PSsNdcGbT4mD2gnmW0UKV1EOisnLUZoP9iGA_1oSenK9tB-tIbqwxttIlPULzXKAxMZ8a1M8Sk4c6v_Yskve-86raKf_rDxwCR5eogpNXUrcW2oyOeNTsBfWuXVQXH4u64HX5MJ4E9JtVodIOTCUvbYXwtRs7c_W-0V_KAO4-eenCzN1bI5FgpWkiAV_N-acl8BRerc39oayr3sKfI0iRdiKw0mNhkrMTMMmaFJGj7Yz2-GL84IiFrkuWuj3dbEvl7iq6GTHTMS_XtPQOX5Kk5VHkSquEJOj1XfXiJAkvU0s1_xN_RpEi4k4xtDgqdRBE4rDNEGR4dGSJ3eI_8vzdwjFz62mH0fsDdZTrXCAbxE37El_UiKd3QWdGaT8FHW9YwV-p6R9n2BdHmdlcNh-6SVmMCIOKiBwZvAPzvVlkLNaZmCgtNPEQwAZFtXqXbBeS1n42UDfUGOoaqql1dSL0Hdu5B1YpQ2RK5DhVASPv8tKr0Nra-hgJokqOxpKPuV2xlOS3A=w1440-h550-ft", "https://lh3.googleusercontent.com/aYR56LNr33SzNSyu5_-F9oKlzraH7tnXYK2mZOmmcxoLGZjKWQtda56DQso5TFderPuxJWgRqv_5NwDfM_mBTJGGnljgk_OzgfYPkntG5kIVKGkYdSAQ0skPNh0RAnk03aMAZpSZk1WFAtMmnvQwcADPkRz8TdYKLjvpOD-mpCNslbrQEWBYtBNPJln1RyIgI-5XY4Xfi4TbY6F3wjucLS-j6vspTMI4zUF_FvjcLnihzwx5lqWxyAEfUxW7zIKU8IRzvlJP-jrxJnd0UJfBZesOomqGUd7ToAKQTCZf1_-B0LyjusjL5lrfsdnzvOvOiU5-MJXB-GsOzOE_l4CJuenIMryQlcs6ES4rT7t7CXDoPRiYjG1Qq3otP5mSS9CNRbuMEOWykyvvztu7ztBN9vGZzfeAkj4dgc5d9mYwVP0ZAIAzCYQ3wUkUGoM-A0IAziM9CUyypniVh0sWvbRVkXh7cUESoYUyQUl7GL1AZsGXBhKABjPWT_Vuwei8Po4nCHCfti1a30teLJNRnGDM05cB3_VuMehSeRUgVtkuET0tL__KL3oEbqX4Ihi47pMgcPVeshvo3l_eGc2qkNGQMsflpDko-4coM5XfPOuQUOadAPLzxHm8J2jvLy7O-cDucmu8AGOY9R59rrvfwb01CnYGn8tqrZeT0HLQ-GYyhhGl0rr-3t4=w1440-h550-ft"];
-function duzS2FeQco() {
+const sourceURLS = ["https://lh3.googleusercontent.com/XKGIgBqpk5eNzFaa9JiCsdYNSs2qwcMcu61hCyr1WbzdItfXzx2-aSEdS-Rrn2b0iaI4Zd7RQtvXHzmbNbRHyEMKs_LqFTxzH7ohFJQsiK_KtMOZSEawdyDjquM0ZRt5eKyLvbgMJw72i4idyP33nNNcpLhOcDvLMeDLVkhO68-FqKyNO8wR_cBn1WChmufNGf3rQ77GITaRb_OKbEKpnh8yamKTXTgrvDWtBILxR5hjMNbRpl7JneVl4gtPZGg-Zvm-m7hTmM_mgAcDQ0egdLrqylLuqDtgcurUKv6EyzI3t1Onun1UEHGN3GBLmKp7MovTrScjtxTQ8DQjaMQgBlWMXtZa7xpyH2kNq3IrOrdRyMPG7Vwk6k37tg8-PAtliw1iAYx3w8yJFBn_K07FiNovQA3i9svPNIT37D6CEdUbtCmdKa08qDI5RZB8TNvBDFJdjnB_EjV8cMBS0Zz0F6Vx4GauR85yXCqBqtH3-TYrvoUtI-VRDIItC5SMW9Lq_Na844bI5OMmNEmNM88oDkZW5mWSGFNUFanM7OQ2w7wg-hxH6sAcv3acxb_S-HKVuZr6dmjlQ8_icdW6wDCSA7StNbouOVgAqPhfkDQK1T2M06euqEeLvmCyY-Ve1wHSxo4gndPbfYLlDNkpQsZMTn1FGka7LNN10IMgT9I0dgU83nTZE5s=w1440-h550-ft"];
+function LHOxyyTUAG() {
   return __jsx("div", {
     className: "jsx-1312979782",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 7
     },
     __self: this
   }, __jsx(_components_Dump__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    id: "robocide",
+    id: "qil",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     },
     __self: this
   }, sourceURLS.map(url => __jsx("img", {
@@ -183,25 +183,25 @@ function duzS2FeQco() {
     className: "jsx-1312979782" + " " + "workComponent",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 10
     },
     __self: this
   }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1312979782",
     __self: this
-  }, ".workComponent.jsx-1312979782{max-height:400px;max-width:500px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9yb2JvY2lkZS9kdXpTMkZlUWNvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWNrQixBQUc0QixpQkFDRCxnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL3dpbGxpYW1hbmRyZWUvS29kM24vZHVtcHRydWNrL3BhZ2VzL3JvYm9jaWRlL2R1elMyRmVRY28uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgRHVtcCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9EdW1wXCI7XG5jb25zdCBzb3VyY2VVUkxTID0gW1xuICBcImh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9SYndpNnNTSEtISnhPYnplb3dTUmdqbmFkb21Fckx5enU2VVE0Z3V1eW5lUzhKSXRSUjJGZW1laWhSS2xRRUFlN2VOZlo5U2ZFMFB4SDdaU21odXdrRjFvZDRaOVhTMFI1X2Vpai04S1RpR3VLUk5zMlhON3dsNW4yVVRtMXN2UnNNMXVZRHZETTFySWdGOXpEdTV3NU85c2RkWUo4QUFhNEV0XzVrYUNQMXlCeTBHdTFpTXF0WC1FNXBwYUY3X2FVWkVmRy1Vd0w3bG9WNVpBTWhnTmpaS3NQeVVHUV9CWWJMaERkcFFSVS1kN1FLNzBzT05WcHpxMGlZX0JiVkE1OW1xenJoVEZsZ3oxQWFCNm1PY1M3NGkybEFjRzZSMFoyZnExUEFjTGw1VWVtUWNrSXFJcDZSajFqZkd3azZzWGxDd3dxa2pDcGdFdmpFMHhpbzJ4aW5RVGo4YlVCZEhnWlVidWNzaUZTbDN1bTNvdXZteWRPSWNMMk5PWTE3Wlg3b3NkdnNHR0d2MHJVVDdnRmZNM0pyN05NdU9UWXRxa3M2QXEzV1lPck1PUUhlUkd6NVJvNUxiMWFuVVRMTTlpQktiTl9DTDUyX3JIbDFMVmN3QWFNT2Qxa0pZdU1NZEthUUJBcTB3UzdRTDNxbTRPSnBrLS02OHFGUWhlcUlFb21rSUZFYWFuNWkxQnZvcFZ2bXhkZHc4ZmlSN0g1elpPZE1rR0lETGN6aVJiWUkwTy00MTUzLW1HY2pKSkJXbkp0N09Hc0Z6bm5ibXZTWklTbVZkYUx4Zzd4bmM3OU8wcHdMZlEyV21DTlBJRWtlN1FHMFVCazRRaEd1Y0RzTTJiU2VLUThVSmgyUGZGbi00SXZ3VWcyNkVTblo5emZDblFTOEZLMGh0TDNDNE5ObWpsMndvPXcxNDQwLWg1NTAtZnRcIixcbiAgXCJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vVVNhV2xhNUVlZWZuYXZnc1JzeDBRclZ5Tk1kaGtiNW5TTUFLVUlPYkxreHIwRHBJWndLRk1mQUJ6MEdlTjRFWW5qRzJvRERkYUpWYTIwWmdLaEVEbHh2RFozcUpSSDFZSjJUMVJJSnpwcHdqNmp2LWdfVHp0SThlRUNOTGVmSmpYeUl3T2s5YXRUWEdpRDN3U0E3OVhIdXpBTHNNQl9FRXBZOFQ3a3RfeU1JVjhQU3NOZGNHYlQ0bUQyZ25tVzBVS1YxRU9pc25MVVpvUDlpR0FfMW9TZW5LOXRCLXRJYnF3eHR0SWxQVUx6WEtBeE1aOGExTThTazRjNnZfWXNrdmUtODZyYUtmX3JEeHdDUjVlb2dwTlhVcmNXMm95T2VOVHNCZld1WFZRWEg0dTY0SFg1TUo0RTlKdFZvZElPVENVdmJZWHd0UnM3Y19XLTBWX0tBTzQtZWVuQ3pOMWJJNUZncFdraUFWX04tYWNsOEJSZXJjMzlvYXlyM3NLZkkwaVJkaUt3MG1OaGtyTVRNTW1hRkpHajdZejItR0w4NElpRnJrdVd1ajNkYkV2bDdpcTZHVEhUTVNfWHRQUU9YNUtrNVZIa1NxdUVKT2oxWGZYaUpBa3ZVMHMxX3hOX1JwRWk0azR4dERncWRSQkU0ckRORUdSNGRHU0ozZUlfOHZ6ZHdqRno2Mm1IMGZzRGRaVHJYQ0FieEUzN0VsX1VpS2QzUVdkR2FUOEZIVzlZd1YtcDZSOW4yQmRIbWRsY05oLTZTVm1NQ0lPS2lCd1p2QVB6dlZsa0xOYVptQ2d0TlBFUXdBWkZ0WHFYYkJlUzFuNDJVRGZVR09vYXFxbDFkU0wwSGR1NUIxWXBRMlJLNURoVkFTUHY4dEtyME5yYS1oZ0pva3FPeHBLUHVWMnhsT1MzQT13MTQ0MC1oNTUwLWZ0XCIsXG4gIFwiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2FZUjU2TE5yMzNTek5TeXU1Xy1GOW9LbHpyYUg3dG5YWUsybVpPbW1jeG9MR1pqS1dRdGRhNTZEUXNvNVRGZGVyUHV4SldnUnF2XzVOd0RmTV9tQlRKR0dubGpna19PemdmWVBrbnRHNWtJVktHa1lkU0FRMHNrUE5oMFJBbmswM2FNQVpwU1prMVdGQXRNbW52UXdjQURQa1J6OFRkWUtManZwT0QtbXBDTnNsYnJRRVdCWXRCTlBKbG4xUnlJZ0ktNVhZNFhmaTRUYlk2RjN3anVjTFMtajZ2c3BUTUk0elVGX0Z2amNMbmloend4NWxxV3h5QUVmVXhXN3pJS1U4SVJ6dmxKUC1qcnhKbmQwVUpmQlplc09vbXFHVWQ3VG9BS1FUQ1pmMV8tQjBMeWp1c2pMNWxyZnNkbnp2T3ZPaVU1LU1KWEItR3NPek9FX2w0Q0p1ZW5JTXJ5UWxjczZFUzRyVDd0N0NYRG9QUmlZakcxUXEzb3RQNW1TUzlDTlJidU1FT1d5a3l2dnp0dTd6dEJOOXZHWnpmZUFrajRkZ2M1ZDltWXdWUDBaQUlBekNZUTN3VWtVR29NLUEwSUF6aU05Q1V5eXBuaVZoMHNXdmJSVmtYaDdjVUVTb1lVeVFVbDdHTDFBWnNHWEJoS0FCalBXVF9WdXdlaThQbzRuQ0hDZnRpMWEzMHRlTEpOUm5HRE0wNWNCM19WdU1laFNlUlVnVnRrdUVUMHRMX19LTDNvRWJxWDRJaGk0N3BNZ2NQVmVzaHZvM2xfZUdjMnFrTkdRTXNmbHBEa28tNGNvTTVYZlBPdVFVT2FkQVBMenhIbThKMmp2THk3Ty1jRHVjbXU4QUdPWTlSNTlycnZmd2IwMUNuWUduOHRxclplVDBITFEtR1l5aGhHbDByci0zdDQ9dzE0NDAtaDU1MC1mdFwiXG5dO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gZHV6UzJGZVFjbygpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPER1bXAgaWQ9XCJyb2JvY2lkZVwiPlxuICAgICAgICB7c291cmNlVVJMUy5tYXAodXJsID0+IChcbiAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cIndvcmtDb21wb25lbnRcIiBzcmM9e3VybH0gLz5cbiAgICAgICAgKSl9XG4gICAgICA8L0R1bXA+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC53b3JrQ29tcG9uZW50IHtcbiAgICAgICAgICBtYXgtaGVpZ2h0OiA0MDBweDtcbiAgICAgICAgICBtYXgtd2lkdGg6IDUwMHB4O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/robocide/duzS2FeQco.js */"));
+  }, ".workComponent.jsx-1312979782{max-height:400px;max-width:500px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9xaWwvTEhPeHl5VFVBRy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZa0IsQUFHNEIsaUJBQ0QsZ0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9xaWwvTEhPeHl5VFVBRy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEdW1wIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL0R1bXBcIjtcbmNvbnN0IHNvdXJjZVVSTFMgPSBbXG4gIFwiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1hLR0lnQnFwazVlTnpGYWE5SmlDc2RZTlNzMnF3Y01jdTYxaEN5cjFXYnpkSXRmWHp4Mi1hU0VkUy1Scm4yYjBpYUk0WmQ3UlF0dlhIem1iTmJSSHlFTUtzX0xxRlR4ekg3b2hGSlFzaUtfS3RNT1pTRWF3ZHlEanF1TTBaUnQ1ZUt5THZiZ01KdzcyaTRpZHlQMzNuTk5jcExoT2NEdkxNZURMVmtoTzY4LUZxS3lOTzh3Ul9jQm4xV0NobXVmTkdmM3JRNzdHSVRhUmJfT0tiRUtwbmg4eWFtS1RYVGdydkRXdEJJTHhSNWhqTU5iUnBsN0puZVZsNGd0UFpHZy1adm0tbTdoVG1NX21nQWNEUTBlZ2RMcnF5bEx1cUR0Z2N1clVLdjZFeXpJM3QxT251bjFVRUhHTjNHQkxtS3A3TW92VHJTY2p0eFRROERRamFNUWdCbFdNWHRaYTd4cHlIMmtOcTNJck9yZFJ5TVBHN1Z3azZrMzd0ZzgtUEF0bGl3MWlBWXgzdzh5SkZCbl9LMDdGaU5vdlFBM2k5c3ZQTklUMzdENkNFZFVidENtZEthMDhxREk1UlpCOFROdkJERkpkam5CX0VqVjhjTUJTMFp6MEY2Vng0R2F1Ujg1eVhDcUJxdEgzLVRZcnZvVXRJLVZSRElJdEM1U01XOUxxX05hODQ0Ykk1T01tTkVtTk04OG9Ea1pXNW1XU0dGTlVGYW5NN09RMnc3d2ctaHhINnNBY3YzYWN4Yl9TLUhLVnVacjZkbWpsUThfaWNkVzZ3RENTQTdTdE5ib3VPVmdBcVBoZmtEUUsxVDJNMDZldXFFZUx2bUN5WS1WZTF3SFN4bzRnbmRQYmZZTGxETmtwUXNaTVRuMUZHa2E3TE5OMTBJTWdUOUkwZGdVODNuVFpFNXM9dzE0NDAtaDU1MC1mdFwiXG5dO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTEhPeHl5VFVBRygpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPER1bXAgaWQ9XCJxaWxcIj5cbiAgICAgICAge3NvdXJjZVVSTFMubWFwKHVybCA9PiAoXG4gICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJ3b3JrQ29tcG9uZW50XCIgc3JjPXt1cmx9IC8+XG4gICAgICAgICkpfVxuICAgICAgPC9EdW1wPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAud29ya0NvbXBvbmVudCB7XG4gICAgICAgICAgbWF4LWhlaWdodDogNDAwcHg7XG4gICAgICAgICAgbWF4LXdpZHRoOiA1MDBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/qil/LHOxyyTUAG.js */"));
 }
 
 /***/ }),
 
-/***/ 4:
-/*!********************************************!*\
-  !*** multi ./pages/robocide/duzS2FeQco.js ***!
-  \********************************************/
+/***/ 9:
+/*!***************************************!*\
+  !*** multi ./pages/qil/LHOxyyTUAG.js ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/williamandree/Kod3n/dumptruck/pages/robocide/duzS2FeQco.js */"./pages/robocide/duzS2FeQco.js");
+module.exports = __webpack_require__(/*! /Users/williamandree/Kod3n/dumptruck/pages/qil/LHOxyyTUAG.js */"./pages/qil/LHOxyyTUAG.js");
 
 
 /***/ }),
@@ -229,4 +229,4 @@ module.exports = require("styled-jsx/style");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=duzS2FeQco.js.map
+//# sourceMappingURL=LHOxyyTUAG.js.map

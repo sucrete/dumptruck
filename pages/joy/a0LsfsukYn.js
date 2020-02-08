@@ -5,7 +5,7 @@ const sourceURLS = [
 export default function a0LsfsukYn() {
   return (
     <div>
-      <Dump id="5ilverkitten">
+      <Dump id="joy">
         {sourceURLS.map(url => (
           <img className="workComponent" src={url} />
         ))}

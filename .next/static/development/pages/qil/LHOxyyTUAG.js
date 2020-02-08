@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/robocide/UvAS2onAHE.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/qil/LHOxyyTUAG.js"],{
 
 /***/ "./components/Dump.js":
 /*!****************************!*\
@@ -51,21 +51,21 @@ var Dump = function Dump(props) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frobocide%2FUvAS2onAHE&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Frobocide%2FUvAS2onAHE.js!./":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frobocide%2FUvAS2onAHE&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Frobocide%2FUvAS2onAHE.js ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqil%2FLHOxyyTUAG&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fqil%2FLHOxyyTUAG.js!./":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqil%2FLHOxyyTUAG&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fqil%2FLHOxyyTUAG.js ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/robocide/UvAS2onAHE", function() {
-      var mod = __webpack_require__(/*! ./pages/robocide/UvAS2onAHE.js */ "./pages/robocide/UvAS2onAHE.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/qil/LHOxyyTUAG", function() {
+      var mod = __webpack_require__(/*! ./pages/qil/LHOxyyTUAG.js */ "./pages/qil/LHOxyyTUAG.js")
       if(true) {
-        module.hot.accept(/*! ./pages/robocide/UvAS2onAHE.js */ "./pages/robocide/UvAS2onAHE.js", function() {
-          if(!next.router.components["/robocide/UvAS2onAHE"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/robocide/UvAS2onAHE.js */ "./pages/robocide/UvAS2onAHE.js")
-          next.router.update("/robocide/UvAS2onAHE", updatedPage)
+        module.hot.accept(/*! ./pages/qil/LHOxyyTUAG.js */ "./pages/qil/LHOxyyTUAG.js", function() {
+          if(!next.router.components["/qil/LHOxyyTUAG"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/qil/LHOxyyTUAG.js */ "./pages/qil/LHOxyyTUAG.js")
+          next.router.update("/qil/LHOxyyTUAG", updatedPage)
         })
       }
       return mod
@@ -973,40 +973,40 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 /***/ }),
 
-/***/ "./pages/robocide/UvAS2onAHE.js":
-/*!**************************************!*\
-  !*** ./pages/robocide/UvAS2onAHE.js ***!
-  \**************************************/
+/***/ "./pages/qil/LHOxyyTUAG.js":
+/*!*********************************!*\
+  !*** ./pages/qil/LHOxyyTUAG.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return UvAS2onAHE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return LHOxyyTUAG; });
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Dump__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Dump */ "./components/Dump.js");
-var _jsxFileName = "/Users/williamandree/Kod3n/dumptruck/pages/robocide/UvAS2onAHE.js";
+var _jsxFileName = "/Users/williamandree/Kod3n/dumptruck/pages/qil/LHOxyyTUAG.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-var sourceURLS = ["https://lh3.googleusercontent.com/mqQl4MDlUJ0nqi6okr340vdImiLZseHPSpTE5e6zi2A0iNDU_JgxL7kDqM2484EQ85BJvaZuoSARa1LJBz5YlX1JTdaXcCuuqwJ91VnKwm97NsroT9jiiYhjCKt_6kVhHXK68vE7wRivUR3PSw_pz_CVOifC4QjycxuPrqCciLL3TWQHFiP82TDqHLuR4VGqM9MGKyS3BQvVMPpJEJBxiSIk8wEhKOVTqJ-4apdYJZo8xoHo1seacKg0G2ZBupzkb3NmdTPS2DyCYQLkhuEo_hL0VtwvuzK26Kcd4G9fpTXKSDjvAhYD5IAlnLIrSxY8d_-htwdn0vn7ZZ8UdbB95y1hnNzxMviDQlsvKdBK4YpVhcBzgcu5OSaUrvw_u9wjYprHPpaOInRzijbhD_aKcePbI3TK6qPGRS5KegB0D_CtA2hCklY4YK75j56Jdx-K5S5p6gf7zjiA0HMJSPwdlhKJdP6HlkCqcw4ROqYmp6S_Uuu5r1HQENZUY1VVfAwY-13pNVzg7IWpqvlzMsWX36fzp0esUTAuOCFCLtP8AZ9f3V1JZB9_WomZCkeFPHV7AznaJBIlyKc8U8msmnGDeGSlW_JbrU9myOWeXL3LiVurCUoihbUVDjjVZG6IpR6vEgd7MqwyrJY8D99uMhG3SVFHo4yYiDRIKE3-3xv7hfNiUj1LKzU=w1440-h550-ft", "https://lh3.googleusercontent.com/FJWEZzVLgIOV0GVG-ULqxzDFLu-K1DV_-V18fdbVcPuiniVhtPtlEyuoQNXGoKhFS-Ytkz5S6XVC_w5H4E82mRnTyBKrrS9s3r6hRfp8peDNXhKrfJ7Clsy8F62Ft8e6oMGnNiG-iu7p9KYSeKzYVVkk5ltiqck92PCSeMBg3EKKqDf_LKbbzMu-QV-qKy8GawKN9--EBNdFwHdcXAp6k3iCiaU_zDfFePecgEU1vNO7m6Q5PStIVEAtZQd9O3e2Jv6jivv7f4uRLGWqafw_VF8J927PeUUz6HqIM43HCWbs2MdfQylOm5JsVhYUd0J9CYCELo1dBBdhcUgAS2lFyAKGjJ3C6PYnP-49AX6iicltoUSg8jEvSEnKO4yKDcC7bFnPoKa1zSzcUtyOjzKKifiBHGnso3pPydRLTwzLip20VRDn_m2M2DuLfp1HVbB6kU_nDc4GBbpry_ooOalqD2apn48-wwIbvC2zkjOHhkkS3XQJ-cWhtnNThLrAVa9pVOWjZWY_d-nRIzinAI8kzC206KbhItw82OHoyhs4Vxb4_SiZhVWVGMWYCCQyzHRI7lpLHifjB-K888IbTE3pJ44XbN86rQFyKx5mLZUou-25MHDe75jZYTfUvxsA_6pP32pceYv2-U3GDTn91T-vQZqPVpiqWPY31kOzwuXU_yYfq7SXKjA=w1440-h550-ft"];
-function UvAS2onAHE() {
+var sourceURLS = ["https://lh3.googleusercontent.com/XKGIgBqpk5eNzFaa9JiCsdYNSs2qwcMcu61hCyr1WbzdItfXzx2-aSEdS-Rrn2b0iaI4Zd7RQtvXHzmbNbRHyEMKs_LqFTxzH7ohFJQsiK_KtMOZSEawdyDjquM0ZRt5eKyLvbgMJw72i4idyP33nNNcpLhOcDvLMeDLVkhO68-FqKyNO8wR_cBn1WChmufNGf3rQ77GITaRb_OKbEKpnh8yamKTXTgrvDWtBILxR5hjMNbRpl7JneVl4gtPZGg-Zvm-m7hTmM_mgAcDQ0egdLrqylLuqDtgcurUKv6EyzI3t1Onun1UEHGN3GBLmKp7MovTrScjtxTQ8DQjaMQgBlWMXtZa7xpyH2kNq3IrOrdRyMPG7Vwk6k37tg8-PAtliw1iAYx3w8yJFBn_K07FiNovQA3i9svPNIT37D6CEdUbtCmdKa08qDI5RZB8TNvBDFJdjnB_EjV8cMBS0Zz0F6Vx4GauR85yXCqBqtH3-TYrvoUtI-VRDIItC5SMW9Lq_Na844bI5OMmNEmNM88oDkZW5mWSGFNUFanM7OQ2w7wg-hxH6sAcv3acxb_S-HKVuZr6dmjlQ8_icdW6wDCSA7StNbouOVgAqPhfkDQK1T2M06euqEeLvmCyY-Ve1wHSxo4gndPbfYLlDNkpQsZMTn1FGka7LNN10IMgT9I0dgU83nTZE5s=w1440-h550-ft"];
+function LHOxyyTUAG() {
   return __jsx("div", {
     className: "jsx-1312979782",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, __jsx(_components_Dump__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    id: "robocide",
+    id: "qil",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, sourceURLS.map(function (url) {
@@ -1015,26 +1015,26 @@ function UvAS2onAHE() {
       className: "jsx-1312979782" + " " + "workComponent",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 10
       },
       __self: this
     });
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1312979782",
     __self: this
-  }, ".workComponent.jsx-1312979782{max-height:400px;max-width:500px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9yb2JvY2lkZS9VdkFTMm9uQUhFLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWFrQixBQUc0QixpQkFDRCxnQkFDbEIiLCJmaWxlIjoiL1VzZXJzL3dpbGxpYW1hbmRyZWUvS29kM24vZHVtcHRydWNrL3BhZ2VzL3JvYm9jaWRlL1V2QVMyb25BSEUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgRHVtcCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9EdW1wXCI7XG5jb25zdCBzb3VyY2VVUkxTID0gW1xuICBcImh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9tcVFsNE1EbFVKMG5xaTZva3IzNDB2ZEltaUxac2VIUFNwVEU1ZTZ6aTJBMGlORFVfSmd4TDdrRHFNMjQ4NEVRODVCSnZhWnVvU0FSYTFMSkJ6NVlsWDFKVGRhWGNDdXVxd0o5MVZuS3dtOTdOc3JvVDlqaWlZaGpDS3RfNmtWaEhYSzY4dkU3d1JpdlVSM1BTd19wel9DVk9pZkM0UWp5Y3h1UHJxQ2NpTEwzVFdRSEZpUDgyVERxSEx1UjRWR3FNOU1HS3lTM0JRdlZNUHBKRUpCeGlTSWs4d0VoS09WVHFKLTRhcGRZSlpvOHhvSG8xc2VhY0tnMEcyWkJ1cHprYjNObWRUUFMyRHlDWVFMa2h1RW9faEwwVnR3dnV6SzI2S2NkNEc5ZnBUWEtTRGp2QWhZRDVJQWxuTElyU3hZOGRfLWh0d2RuMHZuN1paOFVkYkI5NXkxaG5OenhNdmlEUWxzdktkQks0WXBWaGNCemdjdTVPU2FVcnZ3X3U5d2pZcHJIUHBhT0luUnppamJoRF9hS2NlUGJJM1RLNnFQR1JTNUtlZ0IwRF9DdEEyaENrbFk0WUs3NWo1NkpkeC1LNVM1cDZnZjd6amlBMEhNSlNQd2RsaEtKZFA2SGxrQ3FjdzRST3FZbXA2U19VdXU1cjFIUUVOWlVZMVZWZkF3WS0xM3BOVnpnN0lXcHF2bHpNc1dYMzZmenAwZXNVVEF1T0NGQ0x0UDhBWjlmM1YxSlpCOV9Xb21aQ2tlRlBIVjdBem5hSkJJbHlLYzhVOG1zbW5HRGVHU2xXX0piclU5bXlPV2VYTDNMaVZ1ckNVb2loYlVWRGpqVlpHNklwUjZ2RWdkN01xd3lySlk4RDk5dU1oRzNTVkZIbzR5WWlEUklLRTMtM3h2N2hmTmlVajFMS3pVPXcxNDQwLWg1NTAtZnRcIixcbiAgXCJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vRkpXRVp6VkxnSU9WMEdWRy1VTHF4ekRGTHUtSzFEVl8tVjE4ZmRiVmNQdWluaVZodFB0bEV5dW9RTlhHb0toRlMtWXRrejVTNlhWQ193NUg0RTgybVJuVHlCS3JyUzlzM3I2aFJmcDhwZUROWGhLcmZKN0Nsc3k4RjYyRnQ4ZTZvTUduTmlHLWl1N3A5S1lTZUt6WVZWa2s1bHRpcWNrOTJQQ1NlTUJnM0VLS3FEZl9MS2Jiek11LVFWLXFLeThHYXdLTjktLUVCTmRGd0hkY1hBcDZrM2lDaWFVX3pEZkZlUGVjZ0VVMXZOTzdtNlE1UFN0SVZFQXRaUWQ5TzNlMkp2NmppdnY3ZjR1UkxHV3FhZndfVkY4SjkyN1BlVVV6NkhxSU00M0hDV2JzMk1kZlF5bE9tNUpzVmhZVWQwSjlDWUNFTG8xZEJCZGhjVWdBUzJsRnlBS0dqSjNDNlBZblAtNDlBWDZpaWNsdG9VU2c4akV2U0VuS080eUtEY0M3YkZuUG9LYTF6U3pjVXR5T2p6S0tpZmlCSEduc28zcFB5ZFJMVHd6TGlwMjBWUkRuX20yTTJEdUxmcDFIVmJCNmtVX25EYzRHQmJwcnlfb29PYWxxRDJhcG40OC13d0lidkMyemtqT0hoa2tTM1hRSi1jV2h0bk5UaExyQVZhOXBWT1dqWldZX2QtblJJemluQUk4a3pDMjA2S2JoSXR3ODJPSG95aHM0VnhiNF9TaVpoVldWR01XWUNDUXl6SFJJN2xwTEhpZmpCLUs4ODhJYlRFM3BKNDRYYk44NnJRRnlLeDVtTFpVb3UtMjVNSERlNzVqWllUZlV2eHNBXzZwUDMycGNlWXYyLVUzR0RUbjkxVC12UVpxUFZwaXFXUFkzMWtPend1WFVfeVlmcTdTWEtqQT13MTQ0MC1oNTUwLWZ0XCJcbl07XG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBVdkFTMm9uQUhFKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8RHVtcCBpZD1cInJvYm9jaWRlXCI+XG4gICAgICAgIHtzb3VyY2VVUkxTLm1hcCh1cmwgPT4gKFxuICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwid29ya0NvbXBvbmVudFwiIHNyYz17dXJsfSAvPlxuICAgICAgICApKX1cbiAgICAgIDwvRHVtcD5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLndvcmtDb21wb25lbnQge1xuICAgICAgICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xuICAgICAgICAgIG1heC13aWR0aDogNTAwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/robocide/UvAS2onAHE.js */"));
+  }, ".workComponent.jsx-1312979782{max-height:400px;max-width:500px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9xaWwvTEhPeHl5VFVBRy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZa0IsQUFHNEIsaUJBQ0QsZ0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy93aWxsaWFtYW5kcmVlL0tvZDNuL2R1bXB0cnVjay9wYWdlcy9xaWwvTEhPeHl5VFVBRy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEdW1wIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL0R1bXBcIjtcbmNvbnN0IHNvdXJjZVVSTFMgPSBbXG4gIFwiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1hLR0lnQnFwazVlTnpGYWE5SmlDc2RZTlNzMnF3Y01jdTYxaEN5cjFXYnpkSXRmWHp4Mi1hU0VkUy1Scm4yYjBpYUk0WmQ3UlF0dlhIem1iTmJSSHlFTUtzX0xxRlR4ekg3b2hGSlFzaUtfS3RNT1pTRWF3ZHlEanF1TTBaUnQ1ZUt5THZiZ01KdzcyaTRpZHlQMzNuTk5jcExoT2NEdkxNZURMVmtoTzY4LUZxS3lOTzh3Ul9jQm4xV0NobXVmTkdmM3JRNzdHSVRhUmJfT0tiRUtwbmg4eWFtS1RYVGdydkRXdEJJTHhSNWhqTU5iUnBsN0puZVZsNGd0UFpHZy1adm0tbTdoVG1NX21nQWNEUTBlZ2RMcnF5bEx1cUR0Z2N1clVLdjZFeXpJM3QxT251bjFVRUhHTjNHQkxtS3A3TW92VHJTY2p0eFRROERRamFNUWdCbFdNWHRaYTd4cHlIMmtOcTNJck9yZFJ5TVBHN1Z3azZrMzd0ZzgtUEF0bGl3MWlBWXgzdzh5SkZCbl9LMDdGaU5vdlFBM2k5c3ZQTklUMzdENkNFZFVidENtZEthMDhxREk1UlpCOFROdkJERkpkam5CX0VqVjhjTUJTMFp6MEY2Vng0R2F1Ujg1eVhDcUJxdEgzLVRZcnZvVXRJLVZSRElJdEM1U01XOUxxX05hODQ0Ykk1T01tTkVtTk04OG9Ea1pXNW1XU0dGTlVGYW5NN09RMnc3d2ctaHhINnNBY3YzYWN4Yl9TLUhLVnVacjZkbWpsUThfaWNkVzZ3RENTQTdTdE5ib3VPVmdBcVBoZmtEUUsxVDJNMDZldXFFZUx2bUN5WS1WZTF3SFN4bzRnbmRQYmZZTGxETmtwUXNaTVRuMUZHa2E3TE5OMTBJTWdUOUkwZGdVODNuVFpFNXM9dzE0NDAtaDU1MC1mdFwiXG5dO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTEhPeHl5VFVBRygpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPER1bXAgaWQ9XCJxaWxcIj5cbiAgICAgICAge3NvdXJjZVVSTFMubWFwKHVybCA9PiAoXG4gICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJ3b3JrQ29tcG9uZW50XCIgc3JjPXt1cmx9IC8+XG4gICAgICAgICkpfVxuICAgICAgPC9EdW1wPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAud29ya0NvbXBvbmVudCB7XG4gICAgICAgICAgbWF4LWhlaWdodDogNDAwcHg7XG4gICAgICAgICAgbWF4LXdpZHRoOiA1MDBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/williamandree/Kod3n/dumptruck/pages/qil/LHOxyyTUAG.js */"));
 }
 
 /***/ }),
 
-/***/ 4:
-/*!*********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Frobocide%2FUvAS2onAHE&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Frobocide%2FUvAS2onAHE.js ***!
-  \*********************************************************************************************************************************************************************/
+/***/ 7:
+/*!***********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fqil%2FLHOxyyTUAG&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fqil%2FLHOxyyTUAG.js ***!
+  \***********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Frobocide%2FUvAS2onAHE&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Frobocide%2FUvAS2onAHE.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Frobocide%2FUvAS2onAHE&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Frobocide%2FUvAS2onAHE.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fqil%2FLHOxyyTUAG&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fqil%2FLHOxyyTUAG.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fqil%2FLHOxyyTUAG&absolutePagePath=%2FUsers%2Fwilliamandree%2FKod3n%2Fdumptruck%2Fpages%2Fqil%2FLHOxyyTUAG.js!./");
 
 
 /***/ }),
@@ -1050,5 +1050,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=UvAS2onAHE.js.map
+},[[7,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=LHOxyyTUAG.js.map

@@ -5,7 +5,11 @@ export default function Index() {
   return (
     <div className="app">
       <Marquee>
-        <div className="title">the sucrete collection</div>
+        <div className="title">
+          the <br />
+          sucrete <br />
+          collection
+        </div>
       </Marquee>
 
       <div className="topFilesContainer">
@@ -21,6 +25,7 @@ export default function Index() {
           width: 85%;
           font-family: "America Expanded Fat";
           font-size: 3em;
+          line-height: 120%;
         }
         .topFilesContainer {
           margin-left: 3px;
