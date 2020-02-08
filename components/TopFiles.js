@@ -21,7 +21,6 @@ const artists = [
   { pageName: "cosmicdesert", artistName: "cosmicdesert" },
   { pageName: "decrvnk", artistName: "decrvnk" },
   { pageName: "dvvidpw", artistName: "dvvidpw" },
-  { pageName: "frankhat", artistName: "frankhat" },
   { pageName: "girlafraid", artistName: "girlafraid" },
   { pageName: "gordonramsay", artistName: "gordonramsay" },
   { pageName: "gosane", artistName: "gosane" },
