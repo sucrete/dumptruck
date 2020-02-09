@@ -6,8 +6,10 @@ export default function Index() {
     <div className="app">
       <Marquee>
         <div className="title">
-          sucrete's <br />
-          collection
+          the
+          <br />
+          sucrete <br />
+          directory
         </div>
       </Marquee>
 
