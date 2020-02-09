@@ -2,14 +2,7 @@ import Marquee from "../components/Marquee";
 import Body from "../components/ArtistBody";
 import Link from "next/link";
 
-const works = [
-  "GT8GWQLpkq",
-  "iGd4RfurIU",
-  "qZh86EY9Ez",
-  "gzLGblgsI2",
-  "HqQBUquq0h",
-  "WDjuW9qFIn"
-];
+const works = ["GT8GWQLpkq", "iGd4RfurIU", "qZh86EY9Ez", "gzLGblgsI2"];
 const artist = "petrograd";
 export default function Petrograd() {
   return (
