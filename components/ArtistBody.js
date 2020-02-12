@@ -32,6 +32,7 @@ const ArtistBody = props => (
       }
       .iconImg {
         position: relative;
+        height: 24px;
         top: 50%;
         transform: translateY(-50%);
       }

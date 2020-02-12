@@ -25,6 +25,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/maxlabor": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/pretzel": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

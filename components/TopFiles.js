@@ -86,6 +86,7 @@ const TopFiles = () => (
       }
       .iconImg {
         display: inline-block;
+        height: 24px;
         margin: 0;
         padding: 0;
       }
