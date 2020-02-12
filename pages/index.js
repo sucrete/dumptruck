@@ -26,6 +26,7 @@ export default function Index() {
           font-size: 3em;
           line-height: 120%;
           background-size: cover;
+          background-color: black;
           background-position: center;
           -webkit-background-clip: text;
           background-image: url("https://i.imgur.com/mpD6Aah.gif");
