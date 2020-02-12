@@ -41,79 +41,79 @@ export default function Maxlabor() {
       </Body>
 
       <style jsx>{`
-         @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
-         .profile {
-           font-family: "Work Sans";
-           font-size: 77%;
-         }
-         .directoryFooter {
-             transition: all 0.25s;
-             font-family: "Work Sans";
-             border-top: 1px solid #e0e0e0;
-             border-bottom: 1px solid #e0e0e0;
-             padding-left: 2px;
-             height: 40px;
-             position: relative;
-             vertical-align: middle:
-           }
-           .allDumpsTitle {
-             color: #484848;
-             position: absolute;
-             top: 50%;
-             transform: translatey(-50%);
-           }
-           .iconImgReverse {
-             height: 130%;
-             position: relative;
-             top: 85%;
-             left: 0%;
-             transform: translateY(-50%);
-           }
-           .allDumpsTitle {
-             left: 38px;
-           }
-           .directoryFooter {
-             border-top: unset;
-             cursor: pointer;
-           }
-           .directoryFooter:hover {
-             background: #f8f8f8;
-           }
-         .fileName {
-           text-align: right;
-           border-bottom: 1px solid #e0e0e0;
-           height: 32px;
-           font-family: "Work Sans";
-           border-top: 1px solid transparent;
-           transition: all 0.25s;
-           cursor: pointer;
-           border-left: 8px solid #f8f8f8;
-           vertical-align: middle;
-           position: relative;
-         }
-         .fileName:hover {
-           background: #f8f8f8;
-         }
-         .fileName span {
-           font-size: 0.9em;
-           color: #484848;
-           position: absolute;
-           top: 50%;
-           right: 0%;
-           transform: translatey(-50%);
-         }
-         .page {
-           margin: 10px;
-           margin-top: 20px;
-           padding-bottom: 100px;
-         }
-         .header {
-           font-size: 3em;
-           position: relative;
-           margin-top: 6px;
-           left: -3px;
-           padding-bottom: 30px;
-         }
+        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+        .profile {
+          font-family: "Work Sans";
+          font-size: 77%;
+        }
+        .directoryFooter {
+          transition: all 0.25s;
+          font-family: "Work Sans";
+          border-top: 1px solid #e0e0e0;
+          border-bottom: 1px solid #e0e0e0;
+          padding-left: 2px;
+          height: 40px;
+          position: relative;
+          vertical-align: middle;
+        }
+        .allDumpsTitle {
+          color: #484848;
+          position: absolute;
+          top: 50%;
+          transform: translatey(-50%);
+        }
+        .iconImgReverse {
+          height: 130%;
+          position: relative;
+          top: 85%;
+          left: 0%;
+          transform: translateY(-50%);
+        }
+        .allDumpsTitle {
+          left: 38px;
+        }
+        .directoryFooter {
+          border-top: unset;
+          cursor: pointer;
+        }
+        .directoryFooter:hover {
+          background: #f8f8f8;
+        }
+        .fileName {
+          text-align: right;
+          border-bottom: 1px solid #e0e0e0;
+          height: 32px;
+          font-family: "Work Sans";
+          border-top: 1px solid transparent;
+          transition: all 0.25s;
+          cursor: pointer;
+          border-left: 8px solid #f8f8f8;
+          vertical-align: middle;
+          position: relative;
+        }
+        .fileName:hover {
+          background: #f8f8f8;
+        }
+        .fileName span {
+          font-size: 0.9em;
+          color: #484848;
+          position: absolute;
+          top: 50%;
+          right: 0%;
+          transform: translatey(-50%);
+        }
+        .page {
+          margin: 10px;
+          margin-top: 20px;
+          padding-bottom: 100px;
+        }
+        .header {
+          font-size: 3em;
+          position: relative;
+          margin-top: 6px;
+          left: -3px;
+          padding-bottom: 30px;
+        }
       `}</style>
     </div>
   );
