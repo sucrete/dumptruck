@@ -1,9 +1,18 @@
 import TopFiles from "../components/TopFiles";
 import Marquee from "../components/Marquee";
+import Head from "next/head";
 
 export default function Index() {
   return (
     <div className="app">
+      <Head>
+        <title>sucrete's dumpTRUCK</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link
+          rel="shortcut icon"
+          href="https://image.flaticon.com/icons/svg/2422/2422056.svg"
+        />
+      </Head>
       <Marquee>
         <div className="title">
           sucrete's <br />
