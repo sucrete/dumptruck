@@ -19,7 +19,6 @@ const artists = [
   { pageName: "eighteenhundreddogcig", artistName: "1800dogcig" },
   { pageName: "aoifeml", artistName: "aoifeml" },
   { pageName: "cosmicdesert", artistName: "cosmicdesert" },
-  { pageName: "decrvnk", artistName: "decrvnk" },
   { pageName: "dvvidpw", artistName: "dvvidpw" },
   { pageName: "girlafraid", artistName: "girlafraid" },
   { pageName: "gordonramsay", artistName: "gordonramsay" },
