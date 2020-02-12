@@ -21,11 +21,35 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
+    "/gularjinoish": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/maxlabor": [
+    "/joy/all": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/kiptok": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/kiptok/all": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/petrograd/all": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/pretzel": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

@@ -3,6 +3,7 @@ import Body from "../components/ArtistBody";
 import Link from "next/link";
 
 const works = ["Om4hKmsSCi", "YqZmNPyL6L", "nsDdrHFcHU", "FDDGLaTJpX"];
+const artist = "kiptok";
 export default function Kiptok() {
   return (
     <div className="page">
