@@ -26,6 +26,9 @@ const Dump = props => (
       span.artistName img.dumpHeart:hover {
         width: 13px;
       }
+      .workContainer {
+        margin-top: 20px;
+      }
     `}</style>
   </div>
 );

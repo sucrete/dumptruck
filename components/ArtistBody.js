@@ -6,10 +6,7 @@ const ArtistBody = props => (
     </div>
 
     {props.children}
-    <div className="directoryFooter">
-      <img className="iconImgReverse" src="/alldumps.png" />
-      <span className="allDumpsTitle">one page</span>
-    </div>
+
     <style jsx>{`
       .artistBody {
         margin-top: 25px;
@@ -17,7 +14,7 @@ const ArtistBody = props => (
         max-width: 600px;
         margin-right: 5px;
       }
-      .directoryHeader, .directoryFooter {
+      .directoryHeader {
         font-family: "Work Sans";
         border-top: 1px solid #e0e0e0;
         border-bottom: 1px solid #e0e0e0;
@@ -26,7 +23,7 @@ const ArtistBody = props => (
         position: relative;
         vertical-align: middle:
       }
-      .directoryTitle, .allDumpsTitle {
+      .directoryTitle {
         color: #484848;
         position: absolute;
         top: 50%;
@@ -38,22 +35,7 @@ const ArtistBody = props => (
         top: 50%;
         transform: translateY(-50%);
       }
-      .iconImgReverse {
-        height: 130%;
-        position: relative;
-        top: 79%;
-        transform: translateY(-50%);
-      }
-      .allDumpsTitle {
-        left: 42px;
-      }
-      .directoryFooter {
-        border-top: unset;
-        cursor: pointer;
-      }
-      .directoryFooter:hover {
-        background: #f8f8f8;
-      }
+      
     `}</style>
   </div>
 );

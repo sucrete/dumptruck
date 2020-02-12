@@ -21,15 +21,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/cosmicdesert": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/maxlabor": [
+    "/pummp/K6TwMr12He": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
