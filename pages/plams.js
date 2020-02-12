@@ -35,6 +35,12 @@ export default function Plams() {
             </div>
           </Link>
         ))}
+        <Link href="[artist]/all" as={`${artist}/all`}>
+          <div className="directoryFooter">
+            <img className="iconImgReverse" src="/alldumps.png" />
+            <span className="allDumpsTitle">one page</span>
+          </div>
+        </Link>
       </Body>
 
       <style jsx>{`
@@ -42,6 +48,39 @@ export default function Plams() {
         .profile {
           font-family: "Work Sans";
           font-size: 77%;
+        }
+        .directoryFooter {
+          transition: all 0.25s;
+          font-family: "Work Sans";
+          border-top: 1px solid #e0e0e0;
+          border-bottom: 1px solid #e0e0e0;
+          padding-left: 2px;
+          height: 40px;
+          position: relative;
+          vertical-align: middle;
+        }
+        .allDumpsTitle {
+          color: #484848;
+          position: absolute;
+          top: 50%;
+          transform: translatey(-50%);
+        }
+        .iconImgReverse {
+          height: 130%;
+          position: relative;
+          top: 85%;
+          left: 0%;
+          transform: translateY(-50%);
+        }
+        .allDumpsTitle {
+          left: 38px;
+        }
+        .directoryFooter {
+          border-top: unset;
+          cursor: pointer;
+        }
+        .directoryFooter:hover {
+          background: #f8f8f8;
         }
         .fileName {
           text-align: right;
