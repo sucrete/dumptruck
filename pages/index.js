@@ -6,10 +6,8 @@ export default function Index() {
     <div className="app">
       <Marquee>
         <div className="title">
-          the
-          <br />
-          sucrete <br />
-          directory
+          sucrete's <br />
+          files
         </div>
       </Marquee>
 
@@ -27,6 +25,11 @@ export default function Index() {
           font-family: "America Expanded Fat";
           font-size: 3em;
           line-height: 120%;
+          background-size: cover;
+          background-position: center;
+          -webkit-background-clip: text;
+          background-image: url("https://i.imgur.com/mpD6Aah.gif");
+          -webkit-text-fill-color: transparent;
         }
         .topFilesContainer {
           margin-left: 3px;

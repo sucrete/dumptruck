@@ -45,12 +45,10 @@ const artists = [
   { pageName: "roppercat", artistName: "roppercat" },
   { pageName: "ryz", artistName: "ryz" },
   { pageName: "Seacrestcheadle", artistName: "Seacrestcheadle" },
-  { pageName: "selfmade", artistName: "selfmade" },
   { pageName: "slugg", artistName: "slugg" },
   { pageName: "sol", artistName: "sol" },
   { pageName: "tommoody", artistName: "tommoody" },
-  { pageName: "weirdnumber", artistName: "weirdnumber" },
-  { pageName: "yo_matty", artistName: "yo_matty" }
+  { pageName: "weirdnumber", artistName: "weirdnumber" }
 ];
 
 const TopFiles = () => (
