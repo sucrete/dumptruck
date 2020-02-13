@@ -35,6 +35,11 @@ export default function Robocide() {
           font-family: "Work Sans";
           font-size: 77%;
         }
+        @media screen and (max-width: 400px) {
+          .header {
+            font-size: 2.5em !important;
+          }
+        }
         .directoryFooter {
           transition: all 0.25s;
           font-family: "Work Sans";

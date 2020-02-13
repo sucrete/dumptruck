@@ -3,18 +3,22 @@ const Marquee = props => (
     <a id="marqLink" href="/">
       <img
         className="guc"
-        alt="logo for dumpTRUCK dump.fm gallery showcase"
+        alt="logo for dumpTRUCK a dump.fm gallery showcase"
         src="/dumpTRUCKlogo.svg"
       />
     </a>
     <hr />
     <div className="description">{props.children}</div>
     <style jsx>{`
-      .description {
+      .description,
+      .description > * {
         font-family: "America Expanded Fat", sans-serif;
         margin-left: 5px;
         margin-top: 20px;
+        word-break: break-word;
+        hyphens: auto;
       }
+
       #marqLink {
         width: 100%;
         align-content: right;

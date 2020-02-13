@@ -14,9 +14,19 @@ export default function Index() {
         />
       </Head>
       <Marquee>
-        <div className="title">
-          sucrete's <br />
-          files
+        <div className="titleContainer">
+          <div className="title">
+            sucrete's <br />
+            files
+          </div>
+          <p className="topDescription">
+            a collection of work casually saved to my hard drive between the
+            years of 2012 and 2016 from the (now dead) website dump.fm
+          </p>
+          <p className="descriptionDescription">
+            intended to be a permanent home for some very good work, otherwise
+            forgotten
+          </p>
         </div>
       </Marquee>
 
@@ -25,12 +35,13 @@ export default function Index() {
       </div>
 
       <style jsx global>{`
+        .descriptionDescription {
+          color: grey;
+        }
         .title {
           margin-top: 20px;
           margin-left: 5px;
           margin-right: 15px;
-          padding-bottom: 50px;
-          width: 85%;
           font-family: "America Expanded Fat";
           font-size: 3em;
           line-height: 120%;
@@ -40,6 +51,22 @@ export default function Index() {
           -webkit-background-clip: text;
           background-image: url("https://i.imgur.com/mpD6Aah.gif");
           -webkit-text-fill-color: transparent;
+        }
+        .topDescription,
+        .descriptionDescription {
+          font-family: "Work Sans", sans-serif;
+          max-width: 350px;
+          padding-left: 10px;
+        }
+        .titleContainer {
+          padding-bottom: 25px;
+
+          width: 85%;
+        }
+        @media screen and (max-width: 400px) {
+          .title {
+            font-size: 2.5em;
+          }
         }
         .topFilesContainer {
           margin-left: 3px;

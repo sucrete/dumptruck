@@ -102,6 +102,11 @@ export default function Polymer() {
           margin-top: 20px;
           padding-bottom: 100px;
         }
+        @media screen and (max-width: 400px) {
+          .header {
+            font-size: 2.5em !important;
+          }
+        }
         .header {
           font-size: 3em;
           position: relative;

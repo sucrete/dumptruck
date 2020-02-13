@@ -64,6 +64,11 @@ export default function Weirdnumber() {
           left: -3px;
           padding-bottom: 30px;
         }
+        @media screen and (max-width: 400px) {
+          .header {
+            font-size: 2.5em !important;
+          }
+        }
       `}</style>
     </div>
   );

@@ -88,6 +88,11 @@ export default function Carjacker() {
           vertical-align: middle;
           position: relative;
         }
+        @media screen and (max-width: 400px) {
+          .header {
+            font-size: 2.5em !important;
+          }
+        }
         .fileName:hover {
           background: #f8f8f8;
         }

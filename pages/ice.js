@@ -9,7 +9,7 @@ export default function Ice() {
     <div className="page">
       <Marquee>
         <div className="profile">PROFILE</div>
-        <div className="header">{artist}</div>
+        <h1 className="header">{artist}</h1>
       </Marquee>
       <Body artist={artist}>
         {works.map(work => (
@@ -34,6 +34,11 @@ export default function Ice() {
         .profile {
           font-family: "Work Sans";
           font-size: 77%;
+        }
+        @media screen and (max-width: 400px) {
+          .header {
+            font-size: 2.5em !important;
+          }
         }
         .directoryFooter {
           transition: all 0.25s;

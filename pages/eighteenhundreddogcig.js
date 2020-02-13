@@ -32,6 +32,11 @@ export default function Eighteenhundreendogcig() {
           font-family: "Work Sans";
           font-size: 77%;
         }
+        @media screen and (max-width: 400px) {
+          .header {
+            font-size: 2.5em !important;
+          }
+        }
         .fileName {
           text-align: right;
           border-bottom: 1px solid #e0e0e0;

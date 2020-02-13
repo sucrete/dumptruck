@@ -117,6 +117,11 @@ export default function FAUXreal() {
           right: 0%;
           transform: translatey(-50%);
         }
+        @media screen and (max-width: 400px) {
+          .header {
+            font-size: 2.5em !important;
+          }
+        }
         .page {
           margin: 10px;
           margin-top: 20px;
