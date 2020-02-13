@@ -28,22 +28,6 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/maxlabor": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/maxlabor/all": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/weirdnumber": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/weirdnumber/VFunP8NRhb": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

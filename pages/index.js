@@ -21,12 +21,18 @@ export default function Index() {
           </div>
           <p className="topDescription">
             a collection of work casually saved to my hard drive between the
-            years of 2012 and 2016 from the (now dead) website dump.fm
-          </p>
-          <p className="descriptionDescription">
-            intended to be a permanent home for some very good work, otherwise
+            years of 2012 and 2016 from the (now dead) meme accelerator{" "}
+            <a
+              className="dumpfmlink"
+              href="https://sites.rhizome.org/surfclubs/#dump.fm"
+              target="_blank"
+            >
+              dump.fm
+            </a>
+            . intended to be a permanent home for some very good work otherwise
             forgotten
           </p>
+          <p className="descriptionDescription">best displayed on desktop</p>
         </div>
       </Marquee>
 
@@ -37,6 +43,9 @@ export default function Index() {
       <style jsx global>{`
         .descriptionDescription {
           color: grey;
+        }
+        .dumpfmlink:visited {
+          color: midnightblue;
         }
         .title {
           margin-top: 20px;
@@ -51,12 +60,13 @@ export default function Index() {
           -webkit-background-clip: text;
           background-image: url("https://i.imgur.com/mpD6Aah.gif");
           -webkit-text-fill-color: transparent;
+          hyphens: unset;
         }
         .topDescription,
         .descriptionDescription {
           font-family: "Work Sans", sans-serif;
           max-width: 350px;
-          padding-left: 10px;
+          padding-left: 7px;
         }
         .titleContainer {
           padding-bottom: 25px;

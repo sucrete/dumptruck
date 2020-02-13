@@ -21,7 +21,7 @@ const Marquee = props => (
 
       #marqLink {
         width: 100%;
-        align-content: right;
+        padding-left: 5px;
       }
       .guc {
         width: 175px;
