@@ -8,14 +8,11 @@ export default function Index() {
       <Head>
         <title>sucrete's dumpTRUCK</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link
-          rel="shortcut icon"
-          href="https://image.flaticon.com/icons/svg/2422/2422056.svg"
-        />
-        <meta
-          property="og:image"
-          content="https://lh3.googleusercontent.com/MdohvhFJKJL1rn1Qrkk9RXSZ1Qlw_suiaLQoEqkKXwY0E1Bx0W9z645Ym3xlUktOfpgoA3MLRNdlhFQfMUULdB1tyQVVKxiUiAzqumj5bklOXzoSI2KHQvtpjP7IiLwIQjQHUu-1pGM8DvGdqu4xWw4g5dEP92woG1o7ZYVwJzrreWNlf3gJEuRCcu9nP9h6NbGxUde9nfU4OT98S72mwq3ETlq1R9X3i5PO-aVfaxJDHfn2FnPirx_aXffodzY8b2-8dabNH5wI8kjfsyaIXc9rbuA5u3kdRePpctRIV0cAnNHf6HqikTi6ZKIKEDC4vnzpF2DFPqGJ70lha5arzg4SY4CG3unnPPIJIS5igbLvP7EOf-Tmq_cUpt1DalM3kCH5FJsjvLzY1pyTa6BC8LYn9acxChDiBB9_02qZEw7fvh-zdnFQ81-OH7DlZB_OJEtDAyK7Ft2T1Jw37lra8Z91O39Tksxk6ToeKkn66q0eF5546XXLcy732xVJM1Wdxfw0FoVlOhDQuKfRONDm4g-_unaMojLxBDNhNFnxlRkfGiX-aQRMQwR_T_GNms-FBAL5vmTdLnqN8o6SgABWkBD0FAtfGxmD46ileWmsiTPWou-gVPa1MgcWx43_7yDWGUcxqpsex3g1NXIGBI4lNhqMRa5WH-Htl8-tFfGeLrtfmkr39gI=w1408-h717-ft"
-        />
+        <link rel="shortcut icon" href="/heart.svg" />
+        <meta property="og:title" content="dumpTRUCK" />
+        <meta property="og:description" content="Repository of dump.fm art." />
+        <meta property="og:image" content="https://i.imgur.com/PGYOBKz.png" />
+        <meta property="og:url" content="dumptruck.now.sh" />
       </Head>
       <Marquee>
         <div className="titleContainer">
@@ -49,7 +46,7 @@ export default function Index() {
           color: grey;
         }
         .dumpfmlink:visited {
-          color: midnightblue;
+          color: black;
         }
         .title {
           margin-top: 20px;
@@ -74,7 +71,6 @@ export default function Index() {
         }
         .titleContainer {
           padding-bottom: 25px;
-
           width: 85%;
         }
         @media screen and (max-width: 400px) {
