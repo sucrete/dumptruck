@@ -11,8 +11,9 @@ export default function Index() {
         <link rel="shortcut icon" href="/heart.svg" />
         <meta property="og:title" content="dumpTRUCK" />
         <meta property="og:description" content="Repository of dump.fm art." />
-        <meta property="og:image" content="https://i.imgur.com/PGYOBKz.png" />
+        <meta property="og:image" content="https://i.imgur.com/5e83NVF.png" />
         <meta property="og:url" content="https://dumptruck.now.sh/" />
+        <meta property="og:type" content="website" />
       </Head>
       <Marquee>
         <div className="titleContainer">

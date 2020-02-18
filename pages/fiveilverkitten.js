@@ -21,7 +21,7 @@ export default function Fiveilverkitten() {
             </div>
           </Link>
         ))}
-        <Link href="[artist]/all" as={`${artist}/all`}>
+        <Link href="fiveilverkitten/all" as={`fiveilverkitten/all`}>
           <div className="directoryFooter">
             <img className="iconImgReverse" src="/alldumps.png" />
             <span className="allDumpsTitle">one page</span>
