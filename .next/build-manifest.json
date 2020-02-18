@@ -25,15 +25,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/joy": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/joy/kwV3DpiAWf": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

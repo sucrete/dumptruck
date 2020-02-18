@@ -12,7 +12,7 @@ export default function Index() {
         <meta property="og:title" content="dumpTRUCK" />
         <meta property="og:description" content="Repository of dump.fm art." />
         <meta property="og:image" content="https://i.imgur.com/PGYOBKz.png" />
-        <meta property="og:url" content="dumptruck.now.sh" />
+        <meta property="og:url" content="https://dumptruck.now.sh/" />
       </Head>
       <Marquee>
         <div className="titleContainer">
