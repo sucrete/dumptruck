@@ -10,7 +10,10 @@ export default function Index() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/heart.svg" />
         <meta property="og:title" content="dumpTRUCK" />
-        <meta property="og:description" content="Repository of dump.fm art." />
+        <meta
+          property="og:description"
+          content="A limited repository of post-internet art from dump.fm"
+        />
         <meta property="og:image" content="https://i.imgur.com/5e83NVF.png" />
         <meta property="og:url" content="https://dumptruck.now.sh/" />
         <meta property="og:type" content="website" />
