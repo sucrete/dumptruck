@@ -15,15 +15,18 @@ export declare function useRouter(): NextRouter;
 export declare const createRouter: (pathname: string, query: import("querystring").ParsedUrlQuery, as: string, __3: {
     subscription: (data: {
         Component: React.ComponentType<{}>;
+        __N_SSG?: boolean | undefined;
+        __N_SSP?: boolean | undefined;
         props?: any;
         err?: Error | undefined;
         error?: any;
-    }, App?: React.ComponentClass<{}, any> | React.FunctionComponent<{}> | undefined) => void;
+    }, App?: React.ComponentClass<{}, any> | React.FunctionComponent<{}> | undefined) => Promise<void>;
     initialProps: any;
     pageLoader: any;
     Component: React.ComponentType<{}>;
     App: React.ComponentType<{}>;
     wrapApp: (App: React.ComponentType<{}>) => any;
     err?: Error | undefined;
+    isFallback: boolean;
 }) => Router;
 export declare function makePublicRouterInstance(router: Router): NextRouter;
