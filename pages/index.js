@@ -77,11 +77,7 @@ export default function Index() {
           padding-bottom: 25px;
           width: 85%;
         }
-        @media screen and (max-width: 400px) {
-          .title {
-            font-size: 2.5em;
-          }
-        }
+
         .topFilesContainer {
           margin-left: 3px;
           padding-top: 20px;
@@ -173,6 +169,21 @@ export default function Index() {
           margin-top: 6px;
           left: -3px;
           padding-bottom: 30px;
+        }
+        @media only screen and (max-width: 450px) {
+          .titleContainer .title {
+            font-size: 2.6em !important;
+          }
+        }
+        @media only screen and (max-width: 400px) {
+          .titleContainer .title {
+            font-size: 2.2em !important;
+          }
+        }
+        @media only screen and (max-width: 325px) {
+          .titleContainer .title {
+            font-size: 1.8em !important;
+          }
         }
       `}</style>
     </div>

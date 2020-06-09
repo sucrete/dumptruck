@@ -105,6 +105,11 @@ const TopFiles = () => (
         src: url("/fonts/GT-America-Expanded-Regular.otf") format("opentype");
         font-display: auto;
       }
+      @media (max-width: 450px) {
+        .title {
+          font-size: 2.5em !important;
+        }
+      }
     `}</style>
   </div>
 );
