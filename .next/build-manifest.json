@@ -9,10 +9,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -24,19 +20,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/index": [
+    "/joy/NSGUuTwC85": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/robocide": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/robocide/UvAS2onAHE": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/robocide/all": [
+    "/joy/qhbOKcrl8a": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
