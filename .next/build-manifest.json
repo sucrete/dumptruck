@@ -19,6 +19,14 @@
     ],
     "/_polyfills": [
       "static/runtime/polyfills.js"
+    ],
+    "/carjacker/J28v0x0Jbx": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/carjacker/nZV8S4nGDI": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

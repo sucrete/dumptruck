@@ -1,4 +1,4 @@
-const ArtistBody = props => (
+const ArtistBody = (props) => (
   <div className="artistBody">
     <div className="directoryHeader">
       <img className="iconImg" src="/Folder-icon.png" />
@@ -8,6 +8,7 @@ const ArtistBody = props => (
     {props.children}
 
     <style jsx>{`
+    @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
       .artistBody {
         margin-top: 25px;
         margin-left: 5px;

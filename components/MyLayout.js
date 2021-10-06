@@ -1,7 +1,6 @@
-const Layout = props => (
+const Layout = (props) => (
   <div className="layout">
     {props.children}
-
     <style jsx>{`
       .layout {
         // margin: 20 !important;
