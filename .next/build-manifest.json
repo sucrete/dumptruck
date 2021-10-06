@@ -20,11 +20,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/carjacker/J28v0x0Jbx": [
+    "/carjacker": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/carjacker/nZV8S4nGDI": [
+    "/carjacker/UFSD2LN6Pc": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
