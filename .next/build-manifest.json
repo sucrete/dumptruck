@@ -9,14 +9,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/GucciSoFlosy": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/GucciSoFlosy/qlM4OX8SoA": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -27,6 +19,14 @@
     ],
     "/_polyfills": [
       "static/runtime/polyfills.js"
+    ],
+    "/ice/nbEp491maL": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
