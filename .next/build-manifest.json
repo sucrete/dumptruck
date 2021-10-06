@@ -9,19 +9,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/GucciSoFlosy": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/FAUXreal/wPDZsg6BkW": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/FAUXreal/yeTfD6HtQe": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/FAUXreal/zwI0yfaV6v": [
+    "/GucciSoFlosy/qlM4OX8SoA": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -35,14 +27,6 @@
     ],
     "/_polyfills": [
       "static/runtime/polyfills.js"
-    ],
-    "/fiveilverkitten": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }
