@@ -46,6 +46,7 @@ export default function Index() {
       </div>
 
       <style jsx global>{`
+        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .descriptionDescription {
           color: grey;
         }
@@ -97,7 +98,6 @@ export default function Index() {
           src: url("/fonts/GT-America-Expanded-Bold.otf") format("opentype");
           font-display: auto;
         }
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

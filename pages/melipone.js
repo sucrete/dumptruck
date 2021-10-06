@@ -7,7 +7,7 @@ const works = [
   "vTK5dJMg5o",
   "c4VkK0rIVe",
   "JxWnqOC03x",
-  "ZHZuNl9gZN"
+  "ZHZuNl9gZN",
 ];
 const artist = "melipone";
 export default function Melipone() {
@@ -18,7 +18,7 @@ export default function Melipone() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -36,7 +36,6 @@ export default function Melipone() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

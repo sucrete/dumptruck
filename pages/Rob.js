@@ -7,7 +7,7 @@ const works = [
   "DjU6X0E0Hc",
   "gBaWhnm1kS",
   "XcIwIgtmmi",
-  "ukcZZGsW8h"
+  "ukcZZGsW8h",
 ];
 const artist = "Rob";
 export default function Rob() {
@@ -18,7 +18,7 @@ export default function Rob() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -36,7 +36,6 @@ export default function Rob() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

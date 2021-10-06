@@ -15,7 +15,7 @@ const works = [
   "Dfq2xbdJfO",
   "kHWqiejpzt",
   "v3l5VyTHkb",
-  "e8wFhsgCyq"
+  "e8wFhsgCyq",
 ];
 const artist = "plams";
 export default function Plams() {
@@ -26,7 +26,7 @@ export default function Plams() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -44,7 +44,6 @@ export default function Plams() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

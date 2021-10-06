@@ -27,7 +27,7 @@ const works = [
   "zwI0yfaV6v",
   "mQVP0Pl7Jm",
   "mbuyERWMj2",
-  "MHoean6X7c"
+  "MHoean6X7c",
 ];
 const artist = "FAUXreal";
 export default function FAUXreal() {
@@ -38,7 +38,7 @@ export default function FAUXreal() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -56,7 +56,6 @@ export default function FAUXreal() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

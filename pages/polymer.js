@@ -7,7 +7,7 @@ const works = [
   "QSYDFDXuLj",
   "ZXNlY9QcEZ",
   "Tu1yarVqwK",
-  "zHYLjCoV3d"
+  "zHYLjCoV3d",
 ];
 const artist = "polymer";
 export default function Polymer() {
@@ -18,7 +18,7 @@ export default function Polymer() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -36,7 +36,6 @@ export default function Polymer() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

@@ -12,7 +12,7 @@ export default function Kiptok() {
         <div className="header">kiptok</div>
       </Marquee>
       <Body artist="kiptok">
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="kiptok/[work]" as={`kiptok/${work}`}>
             <div className="fileName" key={work}>
               <span>kiptok/{work}.dump</span>
@@ -28,7 +28,6 @@ export default function Kiptok() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

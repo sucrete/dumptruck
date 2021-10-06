@@ -9,7 +9,7 @@ const works = [
   "tsmzpewgYP",
   "UFSD2LN6Pc",
   "Cpkfxgr5at",
-  "qhH5SQzQNC"
+  "qhH5SQzQNC",
 ];
 const artist = "carjacker";
 export default function Carjacker() {
@@ -20,7 +20,7 @@ export default function Carjacker() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -38,7 +38,6 @@ export default function Carjacker() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

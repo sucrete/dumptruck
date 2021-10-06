@@ -12,7 +12,7 @@ export default function Eighteenhundreendogcig() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link
             href="eighteenhundreddogcig/[work]"
             as={`eighteenhundreddogcig/${work}`}
@@ -27,7 +27,6 @@ export default function Eighteenhundreendogcig() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

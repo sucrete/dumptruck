@@ -9,7 +9,7 @@ const works = [
   "CQnST3Y6WE",
   "qhbOKcrl8a",
   "hOz1JDmWOX",
-  "a0LsfsukYn"
+  "a0LsfsukYn",
 ];
 const artist = "joy";
 export default function Joy() {
@@ -20,7 +20,7 @@ export default function Joy() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -38,7 +38,6 @@ export default function Joy() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

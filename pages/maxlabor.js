@@ -12,7 +12,7 @@ const works = [
   "Zq7WzMJrEa",
   "IlPsrHIURg",
   "qY1wneOsVg",
-  "HWvkDFh9Ef"
+  "HWvkDFh9Ef",
 ];
 const artist = "maxlabor";
 export default function Maxlabor() {
@@ -23,7 +23,7 @@ export default function Maxlabor() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="[artist]/[work]" as={`${artist}/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -41,7 +41,6 @@ export default function Maxlabor() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;

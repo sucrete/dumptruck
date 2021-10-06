@@ -12,7 +12,7 @@ export default function Fiveilverkitten() {
         <div className="header">{artist}</div>
       </Marquee>
       <Body artist={artist}>
-        {works.map(work => (
+        {works.map((work) => (
           <Link href="fiveilverkitten/[work]" as={`fiveilverkitten/${work}`}>
             <div className="fileName" key={work}>
               <span>
@@ -30,7 +30,6 @@ export default function Fiveilverkitten() {
       </Body>
 
       <style jsx>{`
-        @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
         .profile {
           font-family: "Work Sans";
           font-size: 77%;
