@@ -20,11 +20,19 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/joy/NSGUuTwC85": [
+    "/maxlabor": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/joy/qhbOKcrl8a": [
+    "/maxlabor/IlPsrHIURg": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/maxlabor/KF4eZ5UCAt": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/maxlabor/all": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
