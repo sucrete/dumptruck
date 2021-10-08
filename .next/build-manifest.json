@@ -28,15 +28,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/melipone": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/melipone/all": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
