@@ -25,8 +25,8 @@ export default function Index() {
             files
           </div>
           <p className="topDescription">
-            a repository of work casually saved to my hard drive between the
-            years of 2012 and 2016 from the (now dead) meme accelerator{" "}
+            below is a repository of work by users of the famed image
+            chatroom/meme accelerator<span> </span>
             <a
               className="dumpfmlink"
               href="https://sites.rhizome.org/surfclubs/#dump.fm"
@@ -34,8 +34,9 @@ export default function Index() {
             >
               dump.fm
             </a>
-            . intended to be a permanent home for some very good work otherwise
-            forgotten
+            . during it's heyday the platform was considered a haven for an
+            avant-garde working primarily on the internet. in so doing the
+            community helped define the internet aesthetic as it's known today.
           </p>
           <p className="descriptionDescription">best displayed on desktop</p>
         </div>
