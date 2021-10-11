@@ -25,8 +25,8 @@ export default function Index() {
             files
           </div>
           <p className="topDescription">
-            below is a repository of work by users of the famed image
-            chatroom/meme accelerator<span> </span>
+            below is a repository of work by users of the famed image chatroom
+            and meme accelerator,<span> </span>
             <a
               className="dumpfmlink"
               href="https://sites.rhizome.org/surfclubs/#dump.fm"
@@ -36,7 +36,8 @@ export default function Index() {
             </a>
             . during it's heyday the platform was considered a haven for an
             avant-garde working primarily on the internet. in so doing the
-            community helped define the internet aesthetic as it's known today.
+            community helped originate what's known today as the 'internet
+            aesthetic'
           </p>
           <p className="descriptionDescription">best displayed on desktop</p>
         </div>
