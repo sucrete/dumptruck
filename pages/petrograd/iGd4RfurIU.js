@@ -1,10 +1,9 @@
 import Dump from "../../components/Dump";
-const sourceURLS = ["/iGd4RfurIU.gif"];
 export default function iGd4RfurIU() {
   return (
     <div>
       <Dump id="petrograd">
-        <img className="workComponent" src={url} />
+        <img className="workComponent" src="/iGd4RfurIU.gif" />
       </Dump>
       <style jsx>{`
         .workComponent {
