@@ -1,16 +1,16 @@
 import Dump from "../../components/Dump";
 const sourceURLS = [
-  "https://lh3.googleusercontent.com/uAldynay3zjQCi8pWgB8v3CZ_S3tPaYyr0f7TqYyJuXzMnf8qnrHxehORNpklJPEkgxBB1nHALbgInDPV6K9zcn5vvgCbUSr1C3oeIT9MHG4TX9p9jIGf73VOfVD2rtb8pVeiozdGNAHaBUTys8bh5JxG0uLxez3LVBIOmsYB851po9unW6aOnKEE_UejAvIfBFuKk4_rvG_scMR0BWKsgzqxkY3QLdxpRg_cwmiT1uuFvT_Omf8KJ_qF41Yjp4b94f5y4xpdDW9Wbl3_H6Z32sSmlId_oBccbJmpM0iHy0ssFTv2xp3u7u-H-ncK2xBn7swwS3srvZFAqWjVgZov2QJH93RXdpepkO-AVX3VqiPCTDQSx-42iM9qDZ2GP5JtvgDvyoNeIYFULW9kNt_HYNlBrRu04v0HA5zT-ncA8FNxGuqCT6NRAZSmYL2Hoae7Pu0VAXp6POn-j2g6Fg6HEMgUdrtbI-JFqAAaixdnp2pFIktI_HfxtBHNwD93grg_bl1uBnnQSEonrem8UfPYRD3Dn7CkhSNDraDdNRCMJ6E4cUSZ6wWkutw_P8ENOFvAIqbmjQ6CKRBypwu5b6SVN6RdkaO0mI5AsnFYA5Ypj4a29LF0ghIAKF3t8BXrb55Cqa-XeHpj3wz3Gewta_Q9FXWIbcQq1eqCxTDFDXBhsl-auhrjN0=w1440-h550-ft",
-  "https://lh3.googleusercontent.com/OYZWtUPdADkhnhUONKeylnZpWC9xt_dPQt9WhVizN-9qgnL3Uk-1-n_5-9toJREMJQ8o_vfbKc2W6U-wIuknXjwobLUdP6Nks8m4gMdNxIucp4ZqxLR0YjifyzBX5Ohx9N9ER7nKCpHlLVHyy4hlsXJocJNDMIj1BePb6n6ryeb8gjOl-Puv7YmQQIso4KSksAEiV-83DShhxc2g78ChYrYzwDB9e5KD0ExzHzJMBMWfbb79_NC0w_iygCZxbM0fpBdeKaoR5SYkNnf52ltCXTI_VZcos98hN5Fn5S-2P66Tn8fj7S2O69iYvLG39shDQc6u07wyh2TLtg6-b8M6lnRaHyq4CKxoAViKSud3u223C63EJCAv5AqlWXknE33UQDh7dtc_ly8laotyzrADTV4gCtElWPUrkXfn5tU0paytN9EKH_GxetWw4AbJ1BX-xcGw4l9t-YvkiiwpL-7YOOmk9rP4gDayXHgJEs9_eQ9IghNU8U88jAzAyJ3fYGormHldgEj1zNL0n-AnSNG0lC6H73ZwX7gGTliLDKHmgJ5Nwwkh3MiN_D0Ye5rPjJ_SXnbJbmISdGPGCjwHWTH0dxgYNLnyy1dR3Nf02g6edUrnav31HSUlXTNrIky0YNyldnnyE9glsxTqJZraHPVfG06QkCxBAm7oOEtkrc91s_PDsPMHX5E=w1440-h550-ft",
-  "https://lh3.googleusercontent.com/vFnVtd8fAH8HIOLoAhvTqNvL_IxsB8RRwQbN8bVMAnh8RNOlG7gN54VjA6E_x9vLY5gO2vfzVM4fSIiRPZWVTWyTrIonjPMYaP8bhoBmmrbUsNGRp5zD-Svwm5jS0LXHyz8JZwClWofDex2lFi6NFasBqm84-B7sgklyqDbuchcncQAbE7FZjbNZyNGNkgj31Q0a30y09Uc9V_E_FYFTq9ggC8D07jWbHTHC27LECBNDAgwnX40WuiqPFeskMkJ5Wl-cr7moUm6i3xbEb2eCTgT-KCkHG49726Riha_g4-wUcHZ9mGpWBQJ_NZTU6hUy2HpY1imed9JHU51OCxF0Q7ipXZBEiBjWzxfKCqGPha39yRyTy9PBZWMkLVDDiI1kW6K2uGLHmf589GTMy4gbYqzE2GC9N3jxKwrBQmsSgMxB_Ai_OpHUK1E3kkjN1_AEfbF681mSFdqoP51Hfi5FuvxKdNvlkwsGUX9u8VYUXVdvflvvana4VeUEXITNAjfr0uM1Q1zyKzosCTzJKu99W_dC0RAdcQj4LCAtOlp8d6Az595Xt5j_8hjc6Z30blU_vFeJteDufVs72sqLcj3ase91bLNRKos7reXngxTw0ZfD-l8COZdisRXU00NnP-a0Y_2dokAShVKR-so2FqTFsZ4I987uD2O7VPXFU88y7yG8VYW0ZmQ=w1440-h550-ft",
-  "https://lh3.googleusercontent.com/-yxPRnPOkq7L50y2JVSMfU0hRtd-_y2_DiE40uKpBJvwEpZRH7A5E55bDPaPgiKrQiQlbcVqeDEAKvDmQWpt1g7ESFOvewke-WWPuWU-6nn_Qx_h7ZEXN8Jz1LYgxpUjxG98PUnCtwcmUBjCzfEBjsbeDC6ykZ0LHajpC6zuAWhuOKBh1aHE7eh9hOOYxNvzHiUXrikcVB85iTueW-2Kg7_3Dj3WixOgO7oIWVMNtNFOwPCHsk7_Pj9Bc42YXrSqXwkQLXzQ_v_2xgPfxLvplzTuMGbKYM_U_Kdq30Fz2AK02ZBphAWE1pQ5Jnf6KG3cu3gm9In4Hg4iwSoH8YV4EzYOQD6isQG7sWzIw2dh1qpDbkIIuwlTnew-LGNOlhgr6o95UZqFzEz17IFjVjtb5LbCHKjucAwUuNtxXhr4V_AD6eVHZ1l1byJT78FygQ1Iem3-h2xfIkZBpaQUOdNGoJyO4ZSSOc1EZ-w1CJ4EIP4cNs6Q1ICV5SOL39KR_FLyoetyVUte-RhWcayP7ibIVKPveAm2TA_o0dA-UNN8DD86DQSRUBGApvZ2c6wtf0jIvWUKk7O-Yo61KQdLK3TYfieGP3v_pKztVozfU6f7fRDuhkO0KVfLIKANYIilTZbt-DIDejx7vpYavm7kPMEk9K2XLRY9ZqCiwyU0oX-kvHFpwGbDLX8=w1440-h550-ft"
+  "/mh8bV5TDIM--0.gif",
+  "/mh8bV5TDIM--1.png",
+  "/mh8bV5TDIM--2.png",
+  "/mh8bV5TDIM--3.gif",
 ];
 export default function mh8bV5TDIM() {
   return (
     <div>
       <Dump id="slugg">
-        {sourceURLS.map(url => (
-          <img className="workComponent" src={url} />
+        {sourceURLS.map((url) => (
+          <img className="workComponent" src={url} key={url} />
         ))}
       </Dump>
       <style jsx>{`

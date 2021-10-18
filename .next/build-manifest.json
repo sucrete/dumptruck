@@ -9,10 +9,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Rob/XcIwIgtmmi": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -24,11 +20,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/robocide/all": [
+    "/slugg/mh8bV5TDIM": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/robocide/duzS2FeQco": [
+    "/sol/PAfU7tMyuP": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
