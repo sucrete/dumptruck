@@ -20,11 +20,15 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/plams/all": [
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/plams/nNLOhm8Arl": [
+    "/polymer/ZXNlY9QcEZ": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/polymer/all": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
