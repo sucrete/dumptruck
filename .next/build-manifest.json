@@ -9,10 +9,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -24,15 +20,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/index": [
+    "/gordonramsay/dRguhuHAcW": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/tommoody/YQvTXQ3Tui": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/weirdnumber/VFunP8NRhb": [
+    "/illalli/all": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
